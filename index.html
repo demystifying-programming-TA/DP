@@ -1,11 +1,17 @@
-<!-- bare minimum, with header and footer -->
-<!doctype html>
+<!DOCTYPE html> 
 <html>
 <head>
+  <meta charset="utf-8">
     <title>Articles | Computational Methods in the Civic Sphere at Stanford University</title>
     <meta name="description" content="A curated index of all the guides, references, and other writeups for the CompCiv class.">
 <meta name="author" content="Dan Nguyen">
 <link rel="canonical" href="http://www.compciv.org/articles/">
+
+
+<link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css">
+
+
+
 
 
     <meta property="og:site_name" content="Computational Methods in the Civic Sphere at Stanford University"/>
@@ -51,6 +57,31 @@
 
 
     
+<p>
+Read more about the klipse plugin:
+<a href="http://blog.klipse.tech/javascript/2016/06/20/blog-javascript.html">
+A new way of blogging about javascript
+</a>
+</p>
+<h1>
+Hello World
+</h1>
+<div class="klipse">
+ function foo(name) {
+ return "Hello " + name;
+ }
+ foo("Klipse");
+</div>
+
+
+<h1>
+map
+</h1>
+<div class="klipse">
+[1, 2, 3].map(function(x){
+  return x + 1;
+});
+</div>
 
 
   <section id="the-page-meta">
@@ -290,7 +321,13 @@
 
 
 </html>
+<script>
+    window.klipse_settings = {
+        selector_eval_js: '.language-klipse-eval-js', // css selector for the html elements you want to klipsify
+    };
+</script>
 <script src="/assets/javascripts/site.js"></script>
+<script src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js"></script>
 </body>
 </html>
 
