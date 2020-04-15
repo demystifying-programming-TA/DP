@@ -10,6 +10,12 @@ Building on a high-level understanding of the end-to-end software development cy
 
 For each of the 4 sessions, this website provides you with: 
 * An overview of the material that will be covered
+
+
 * Setup guides to ensure that you have all the right tools installed
+
+
 * Mini-tutorials that allow you to familiarize yourself with the concepts covered ahead of time
+
+
 * Optional materials if you want to engage further
