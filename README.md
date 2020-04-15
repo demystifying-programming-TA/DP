@@ -1,15 +1,15 @@
-# Headline
+# Demystifying Programming (DP)
 
-> An awesome project.
+> What is this all about?
 
-> fdsafds
-```
-fdsafdsfdsa
-dsfds
+#### Demystifying programming is a student-led mini-course that seeks to demystify programming through 4 bootcamp-style classes from 10:00 am-1:00 pm EST on Fridays. 
 
-```
+Building on a high-level understanding of the end-to-end software development cycle ([session #1](/session1/session1.md)), the course will provide you with an opportunity to gain hands-on experience traversing through the software development cycle as you develop and launch a functional website powered by Python web-end and hosted on AWS ([session #2](/session2/session2.md), [session #3](/session3/session3.md), and [session #4](/session4/session4.md) ). 
 
-<iframe src="https://trinket.io/embed/python3/a8e7a794b4" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+> What materials can students find on this website?
 
-
-<iframe width="100%" height="300" src="//jsfiddle.net/DPTeam/fpzvy4cn/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+For each of the 4 sessions, this website provides you with: 
+* An overview of the material that will be covered
+* Setup guides to ensure that you have all the right tools installed
+* Mini-tutorials that allow you to familiarize yourself with the concepts covered ahead of time
+* Optional materials if you want to engage further
