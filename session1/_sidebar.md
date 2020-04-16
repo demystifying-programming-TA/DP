@@ -1,7 +1,8 @@
 <!-- docs/_sidebar.md -->
 
-* Session 1 
-* [Home](/session1/session1.md)
+* [Return to Homepage](/#demystifying-programming-dp)
+* [Return to Session 1 Overview](/session1/session1)
+<hr>
 * Setup Guides  
 * [Text Editor - Sublime Text](/session1/setup_sublime.md)
 * [Command Line MacOS - Terminal](/session1/setup_terminal.md)
