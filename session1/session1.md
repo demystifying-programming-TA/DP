@@ -26,7 +26,7 @@ long-project and develop an initial concept and wireframe
 
 - #### Mini-Tutorials
 	* [Postman - Using APIs](/session1/tutorial_postman_api.md)
-	* [Commands Line](/session1/tutorial_commandline.md)
+	* [Command Line](/session1/tutorial_commandline.md)
 	* [Github Command Line Tool](/session1/tutorial_githubcommandline.md)
 
 > What resources should I look at if I want to learn more about the topics covered?
