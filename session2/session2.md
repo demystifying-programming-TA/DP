@@ -1,17 +1,19 @@
 # Session 2 (Frontend)
 *April 24th (10:00 am - 1:00 pm EST)*
 
-> In this session you will...
+> In this session you will... (* Subject to change)
 
-1) Understand the (local) web development workflow (local webservers, and web developer tools)
+1) Understand the frontend (web) development workflow (text editor / browser, local webservers, web developer tools)
 
-2) Become comfortable with the 2 most common frontend development languages (HTML/CSS)
+2) Learn about the separation of concerns principle and how it guides programming
 
-3) Develop an appreciation for the differences between client (frontend)/server (backend) code and how they shape the development cycle
+3) Become comfortable with the 2 most common frontend development languages (HTML/CSS)
 
-4) Be introduced to the fundamental building blocks of a programming language (variables + functions, packages)
+4) Develop an appreciation for the differences between client (frontend)/server (backend) code and how they influence development
 
-5) Learn how to use JavaScript to build dynamic frontends
+5) Be introduced to the fundamental building blocks of a programming language *(incl. (i) variables, (ii) functions, (iii) packages/libraries, (iv) logging)*
+
+6) Learn how to use JavaScript to build dynamic frontends
 
 
 > What materials should I look at ahead of class?

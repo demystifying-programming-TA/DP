@@ -1,11 +1,14 @@
 # Session 3 (Backend)
 *May 1st (10:00 am - 1:00 pm EST)*
 
-> In this session you will...
+> In this session you will... (* Subject to change)
 
-1) Continue building out your understanding of the fundamental building blocks of a programming language
+1) Understand the backend development workflow (text editor, command line, interactive shells)
 
-2) Become comfortable with Python, one of the most common backend languages
+
+2) Continue building out your understanding of the fundamental building blocks of any programming language *(incl. (i) script structure and format (ii) modules (internal / external), (iii) classes/objects/attributes, (iv) data types (arrays, dictionaries...) (v) boolean operators/boolean indexes/conditional statements, (vi) dataframes, (vii) loops)*
+
+3) Become comfortable with Python, one of the most common backend languages
 
 
 > What materials should I look at ahead of class?
