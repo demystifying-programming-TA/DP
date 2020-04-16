@@ -5,9 +5,7 @@
 
 The command line will be your constant companion over the course of these 4 sessions (and hopefully beyond) - this guide will walk you through some of the most common commands and start to build your confidence when it comes to command line interactions. 
 
-*Note: We will be referring to the Terminal throughout this tutorial - the same instructions hold for Mac and Windows users with a couple exceptions we will note along the way.*
-
-For example: paths on Mac always use a ```/``` (e.g. ```Users/username```), while paths on Windows traditionally use a ```\``` (e.g. ```C:\Users\username```). That being said, ```/``` will work in PowerShell and many other applications.
+*Note: We will be referring to the Terminal throughout this tutorial - the same instructions hold for Mac and Windows users with a couple exceptions we will note along the way. For example: paths on Mac always use a ```/``` (e.g. ```Users/username```), while paths on Windows traditionally use a ```\``` (e.g. ```C:\Users\username```). That being said, ```/``` will work in PowerShell and many other applications.*
 
 
 **Step 1: Launch the Terminal and Sublime Text (your 'coding environment')**
