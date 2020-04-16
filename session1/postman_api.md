@@ -77,7 +77,7 @@ Once this is done and you refresh the page, you should now see resources listed,
 
 First I want to make sure that Postman can also see our data, so with the server still running, I send a GET request to http://localhost:3000/contacts and see the data returned.
 
-![Postman1](assets/Postman1.png)
+![postlogo](assets/Postman1.png)
 
 
 Assuming we're good here, you just completed your first GET request! Well done. 
@@ -105,6 +105,8 @@ Lastly, just to close it out, let's run another GET request in your Postman, and
 Send a GET request to http://localhost:3000/contacts
 
 ![Postman4](assets/Postman4.png)
+
+![logo](assets/DPIcon.png)
 
 
 
