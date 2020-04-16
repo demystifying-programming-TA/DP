@@ -1,8 +1,6 @@
 # Setting Up Your Terminal
 *Session 1 Setup Guide*
 
-For Mac:
-
 **Step 1: Install x-code, if you already haven't.**
 
 -Command + Spacebar -> type in 'Terminal', and open the app
@@ -35,13 +33,9 @@ If you get the following message: "Your system is ready to brew", then move on t
 
 Type in the following commands:
 
-`
-brew update
+```brew update
 brew install git
-brew install curl`
+brew install curl
+```
 
 We just installed brew, so we could have skipped 'brew update'. However, it's generally good practice to run it before installing anything, since Homebrew is updated regularly.
-
-
-
-For Windows:
