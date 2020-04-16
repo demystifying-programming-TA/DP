@@ -11,7 +11,7 @@
 
 4) Develop an appreciation for the differences between client (frontend)/server (backend) code and how they influence development
 
-5) Be introduced to the fundamental building blocks of a programming language (incl. (i) variables, (ii) functions, (iii) packages/libraries, (iv) logging)
+5) Be introduced to the fundamental building blocks of a programming language *(incl. (i) variables, (ii) functions, (iii) packages/libraries, (iv) logging)*
 
 6) Learn how to use JavaScript to build dynamic frontends
 

@@ -6,7 +6,7 @@
 1) Understand the backend development workflow (text editor, command line, interactive shells)
 
 
-2) Continue building out your understanding of the fundamental building blocks of any programming language (incl. (i) script structure and format (ii) modules (internal / external), (iii) classes/objects/attributes, (iv) data types (arrays, dictionaries...) (iv) boolean operators/boolean indexes/conditional statements, (v) dataframes, (vi) loops)
+2) Continue building out your understanding of the fundamental building blocks of any programming language *(incl. (i) script structure and format (ii) modules (internal / external), (iii) classes/objects/attributes, (iv) data types (arrays, dictionaries...) (v) boolean operators/boolean indexes/conditional statements, (vi) dataframes, (vii) loops)*
 
 3) Become comfortable with Python, one of the most common backend languages
 
