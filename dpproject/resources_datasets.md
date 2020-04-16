@@ -1,7 +1,7 @@
 # Project Resources
-
+***
 ## Database and API Search Providers
-
+***
 #### DataHub: 
 https://datahub.io/
 
@@ -24,7 +24,7 @@ https://registry.opendata.aws/
 https://data.europa.eu/euodp/en/data/
 
 ## Sample APIs and CSVs of Interest
-
+***
 ## APIs
 #### World Bank Data:
 https://datahub.io/collections/world-bank#api
