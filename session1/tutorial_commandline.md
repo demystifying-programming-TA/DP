@@ -111,7 +111,6 @@ At this point, you should be seeing an empty text file. Enter your first 'Hello 
 cd ~
 
 cat ~/myDPdirectory/myfirstfile_renamed.txt (mac)
-cat ~/myDPdirectory/myfirstfile_renamed.txt (windows)
 
 rm  -i ~/myDPdirectory/myfirstfile_renamed.txt (mac)
 rm -confirm ~/myDPdirectory/myfirstfile_renamed.txt (windows)
