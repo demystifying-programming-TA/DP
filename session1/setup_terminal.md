@@ -35,6 +35,7 @@ Type in the following commands:
 
 ```brew update
 brew install git
+brew install npm
 brew install curl
 ```
 
