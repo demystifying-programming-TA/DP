@@ -7,4 +7,4 @@
 
 > A student-led, bootcamp-style programming course 
 
-[Get Started](#docsify)
+[Get Started](#demystifying-programming-dp)

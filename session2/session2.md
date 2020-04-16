@@ -3,13 +3,13 @@
 
 > In this session you will...
 
-1) Understand the (local) web development workflow
+1) Understand the (local) web development workflow (local webservers, and web developer tools)
 
 2) Become comfortable with the 2 most common frontend development languages (HTML/CSS)
 
-3) Develop an appreciation for the differences between client/server side code and how they shape the development cycle
+3) Develop an appreciation for the differences between client (frontend)/server (backend) code and how they shape the development cycle
 
-4) Be introduced to the fundamental building blocks of a programming language 
+4) Be introduced to the fundamental building blocks of a programming language (variables + functions, packages)
 
 5) Learn how to use JavaScript to build dynamic frontends
 
