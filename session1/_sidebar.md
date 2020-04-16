@@ -9,7 +9,6 @@
 * [Version Control System - Github](/session1/setup_github.md)
 * [API Client - Postman](https://www.postman.com/)
 * Mini-Tutorials 
-* [Postman & APIs](/session1/tutorial_postman_api.md)
 * [Command Line](/session1/tutorial_commandline.md)
 * [Github Command Line Tool](/session1/tutorial_githubcommandline.md)
 

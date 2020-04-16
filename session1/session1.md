@@ -12,8 +12,8 @@
 3) Set up and become comfortable with your coding environment (command line, text editor, and version control)
 
 
-4) Pick a topic (i.e. dataset) for your semester 
-long-project and develop an initial concept and wireframe 
+4) (Homework): Pick a topic (i.e. dataset) for your semester 
+long-project and develop an initial concept (*and wireframe*) 
 
 
 > What materials should I look at ahead of class?
@@ -25,7 +25,6 @@ long-project and develop an initial concept and wireframe
 	* API Client ([Postman](https://www.postman.com/))
 
 - #### Mini-Tutorials
-	* [Postman - Using APIs](/session1/tutorial_postman_api.md)
 	* [Command Line](/session1/tutorial_commandline.md)
 	* [Github Command Line Tool](/session1/tutorial_githubcommandline.md)
 
