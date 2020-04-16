@@ -19,6 +19,6 @@ Drag the Sublime text icon into your 'Applications' folder
 
 Run the installer and you're done!
 
-Using Sublime Text:
+**Step 3: Using Sublime**
 
 Click the bottom right corner to select what language you're programming in. This will help the application show coloring for the language syntax.
