@@ -25,6 +25,7 @@ long-project and develop an initial concept and wireframe
 	* API Client ([Postman](https://www.postman.com/))
 
 - #### Mini-Tutorials
+	* [Postman - Using APIs](/session1/postman_api.md)
 	* [Command Line](/session1/tutorial_commandline.md)
 	* [Github Command Line Tool](/session1/tutorial_githubcommandline.md)
 
