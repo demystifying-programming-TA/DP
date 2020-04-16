@@ -35,6 +35,7 @@ Type in the following commands:
 
 ```brew update
 brew install git
-brew install curl```
+brew install curl
+```
 
 We just installed brew, so we could have skipped 'brew update'. However, it's generally good practice to run it before installing anything, since Homebrew is updated regularly.
