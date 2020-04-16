@@ -8,7 +8,7 @@ For Mac:
 -Command + Spacebar -> type in 'Terminal', and open the app
 -Inside the Terminal window, copy and paste (or type) the following lines of code:
 
-xcode-select --install
+# xcode-select --install
 
 -You should follow the prompted instructions to install the command line developer tools.
 
@@ -20,13 +20,13 @@ It's a package manager for Mac OS and Linux operating systems. Essentially, it h
 
 To install Homebrew, please copy paste the following (please don't try to type this out) into your terminal, and press 'return':
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 Follow the instructions on your terminal. At some point, Terminal may ask you for your password. When typing in your password, please note that Terminal does not provide any visual feedback when typing. Just type it slowly, and press 'return'.
 
 Once the installation is successful, run the following command:
 
-brew doctor
+# brew doctor
 
 If you get the following message: "Your system is ready to brew", then move on to the next step. If you run into errors, please let us know.
 
