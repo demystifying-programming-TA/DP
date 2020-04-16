@@ -33,8 +33,10 @@ If you get the following message: "Your system is ready to brew", then move on t
 
 Type in the following commands:
 
-```brew update
+```
+brew update
 brew install git
+brew install npm
 brew install curl
 ```
 
