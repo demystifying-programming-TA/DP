@@ -1,11 +1,15 @@
 # Session 4 (Integration and Deployment)
 *May 8th (10:00 am - 1:00 pm EST)*
 
-> What will I learn in this session? (* Subject to change)
+> In this session you will... (* Subject to change)
 
-1) Understand how to establish a link between the frontend and the backend, i.e., between client and server-side code 
+1) Gain confidence teaching yourself new programming skills and debugging errors 
 
-2) Learn how to deploy code to the cloud (AWS Elastic Beanstalk) 
+
+2) Understand how to establish a link between the frontend and the backend, i.e., between client (frontend) and server (backend) using a web framework (Flask), templating language (Jinja), and HTTP requests
+
+
+3) Learn how to deploy code to the cloud (AWS Elastic Beanstalk) 
 
 
 > What materials should I look at ahead of class?
