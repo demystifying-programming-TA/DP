@@ -3,15 +3,19 @@
 
 We will be using Sublime text editor for our work in this course. Please go to the following links to download Sublime. Be sure to download the proper one based on your operating system.
 
+**Step 1: Installing Sublime**
+
 Sublime Download: https://www.sublimetext.com/3
 
-Is my OS 32 bit or 64 bit? (Windows only): https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq
+*Is my OS 32 bit or 64 bit? (Windows only)*: https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq
 
-For Mac:
+**Step 2: Set up Sublime**
+
+*For Mac*:
 
 Drag the Sublime text icon into your 'Applications' folder
 
-For Windows:
+*For Windows*:
 
 You're done!
 
