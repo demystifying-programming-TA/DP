@@ -12,7 +12,7 @@ If you followed the [Terminal](/session1/setup_terminal.md) setup guide you shou
 Download "Git for Windows" from: https://gitforwindows.org/ and run the installer.
 
 
-**Step 2: Check your set up**
+**Step 2: Confirm your installation**
 
 Verify that Git was correctly installed by running the following in your Terminal/Windows Shell: 
 

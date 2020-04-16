@@ -3,7 +3,7 @@
 
 We will be using Sublime text editor for our work in this course. Please go to the following links to download Sublime. Be sure to download the proper one based on your operating system.
 
-**Step 1: Installing Sublime**
+**Step 1: Install Sublime**
 
 Sublime Download: https://www.sublimetext.com/3
 
@@ -19,6 +19,6 @@ Drag the Sublime text icon into your 'Applications' folder
 
 Run the installer and you're done!
 
-**Step 3: Using Sublime**
+**Step 3: Use Sublime**
 
 Click the bottom right corner to select what language you're programming in. This will help the application show coloring for the language syntax.
