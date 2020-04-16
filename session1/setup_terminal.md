@@ -8,7 +8,7 @@ For Mac:
 -Command + Spacebar -> type in 'Terminal', and open the app
 -Inside the Terminal window, copy and paste (or type) the following lines of code:
 
-` xcode-select --install`
+`xcode-select --install`
 
 -You should follow the prompted instructions to install the command line developer tools.
 
@@ -35,7 +35,8 @@ If you get the following message: "Your system is ready to brew", then move on t
 
 Type in the following commands:
 
-`brew update
+`
+brew update
 brew install git
 brew install curl`
 
