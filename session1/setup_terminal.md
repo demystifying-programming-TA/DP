@@ -3,7 +3,7 @@
 
 For Mac:
 
-Step 1: Install x-code, if you already haven't.
+**Step 1: Install x-code, if you already haven't.**
 
 -Command + Spacebar -> type in 'Terminal', and open the app
 -Inside the Terminal window, copy and paste (or type) the following lines of code:
@@ -12,7 +12,7 @@ xcode-select --install
 
 -You should follow the prompted instructions to install the command line developer tools.
 
-Step 2: Installing Homebrew
+**Step 2: Installing Homebrew**
 
 -What is Homebrew? 
 
@@ -31,7 +31,7 @@ brew doctor
 If you get the following message: "Your system is ready to brew", then move on to the next step. If you run into errors, please let us know.
 
 
-Step 3: Install Git and cURL
+**Step 3: Install Git and cURL**
 
 Type in the following commands:
 
