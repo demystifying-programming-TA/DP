@@ -104,14 +104,16 @@ notepad myfirstfile_renamed.txt (windows)
 *Interacting with files, directories, and applications (part #3)*
 
 
-At this point, you should be seeing an empty text file. Enter your first 'Hello World!' message into the file, then save and close the file.  
+At this point, you should be seeing an empty text file. Enter your first 'Hello World!' message into the file, then save and close the file. Let's work with this file now.
 
 ```
 
 cd ~
 
-cat ~/myDPdirectory/myfirstfile_renamed.txt (mac)
-
+cat ~/myDPdirectory/myfirstfile_renamed.txt
+```
+Did you get a nice greeting? Let's continue:
+```
 rm  -i ~/myDPdirectory/myfirstfile_renamed.txt (mac)
 rm -confirm ~/myDPdirectory/myfirstfile_renamed.txt (windows)
 
@@ -149,7 +151,7 @@ Firstly pause and ask yourself if what you are doing is what you actually meant 
 
 Secondly - assuming you are still OK with the command: 
 
-On a Mac/Linux you can use the ```sudo```  command ahead of your command (e.g. ``` sudo ls```). When entering ```sudo``` mode, you will be asked to enter your administrator password - note that it won't look like you are typing anything, continue entering your password and press enter once you are done. 
+On Mac/Linux you can use the ```sudo```  command ahead of your command (e.g. ``` sudo ls```). When entering ```sudo``` mode, you will be asked to enter your administrator password - note that it won't look like you are typing anything, continue entering your password and press enter once you are done. 
 
 On Windows (though not entirely the same) you can run close PowerShell and reopen it "as an administrator" by right clicking the app which will elevate your hacking powers.
 
