@@ -3,9 +3,9 @@
 
 We will be using Sublime text editor for our work in this course. Please go to the following links to download Sublime. Be sure to download the proper one based on your operating system.
 
-Sublime: https://www.sublimetext.com/3
+Sublime Download: https://www.sublimetext.com/3
 
-Is my OS 32 bit or 64 bit? (Windows only): https://www.sublimetext.com/3
+Is my OS 32 bit or 64 bit? (Windows only): https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq
 
 For Mac:
 
