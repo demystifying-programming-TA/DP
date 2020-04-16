@@ -7,7 +7,7 @@ The command line will be your constant companion over the course of these 4 sess
 
 *Note: We will be referring to the Terminal throughout this tutorial - the same instructions hold for Mac and Windows users with a couple exceptions we will note along the way. 
 
-For example: paths on Mac always use a ```/``` (e.g. ```Users/username```), while paths on Windows traditionally use a ```\``` (e.g. ```C:\Users\username```) That being said, ```/``` will work in PowerShell and many other applications*
+For example: paths on Mac always use a ```/``` (e.g. ```Users/username```), while paths on Windows traditionally use a ```\``` (e.g. ```C:\Users\username```). That being said, ```/``` will work in PowerShell and many other applications.*
 
 
 **Step 1: Launch the Terminal and Sublime Text (your 'coding environment')**
@@ -147,13 +147,13 @@ If you get stuck - review the below checklist to rule out common errors:
 
 If you get an error message to that effect: 
 
-Firstly pause and ask yourself if what you are doing is what you actually meant to do
+Firstly - pause and ask yourself if what you are doing is what you actually meant to do
 
 Secondly - assuming you are still OK with the command: 
 
-On Mac/Linux you can use the ```sudo```  command ahead of your command (e.g. ``` sudo ls```). When entering ```sudo``` mode, you will be asked to enter your administrator password - note that it won't look like you are typing anything, continue entering your password and press enter once you are done. 
+On *Mac/Linux* you can use the ```sudo```  command ahead of your command (e.g. ``` sudo ls```). When entering ```sudo``` mode, you will be asked to enter your administrator password - note that it won't look like you are typing anything, continue entering your password and press enter once you are done. 
 
-On Windows (though not entirely the same) you can run close PowerShell and reopen it "as an administrator" by right clicking the app which will elevate your hacking powers.
+On *Windows* (though not entirely the same) you can run close PowerShell and reopen it "as an administrator" by right clicking the app which will elevate your hacking powers.
 
 
 
