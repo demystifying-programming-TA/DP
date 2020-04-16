@@ -77,14 +77,14 @@ Once this is done and you refresh the page, you should now see resources listed,
 
 First I want to make sure that Postman can also see our data, so with the server still running, I send a GET request to http://localhost:3000/contacts and see the data returned.
 
-![postlogo](../assets/Postman1.png)
+![Postman1](../assets/Postman1.png)
 
 
 Assuming we're good here, you just completed your first GET request! Well done. 
 
 Now, let's try a POST request. With a POST, request we need to provide all of the data we want included in our resource. In this case, that would be the id, first and last names, location, and email. In Postman, change the method next to the URL to ‘POST’, and under the ‘Body’ tab choose the ‘raw’ radio button and then ‘JSON (application/json)’ from the drop down. You can now type in the JSON you want to send along with the POST request. (Please follow along with the screen of your team leader). Let's use this as the body of your second request:
 
-![Postman2](assets/Postman2.png)
+![Postman2](../assets/Postman2.png)
 
 `{
   "id": 2,
@@ -94,7 +94,7 @@ Now, let's try a POST request. With a POST, request we need to provide all of th
   "email": "{Please fill in your email address here}"
 }`
 
-![Postman3](assets/Postman3.png)
+![Postman3](../assets/Postman3.png)
 
 
 Once you submit the request, if it is successful, you should actually see your new data in your db.json file locally. So please refresh that file and take a look!
@@ -104,10 +104,7 @@ Lastly, just to close it out, let's run another GET request in your Postman, and
 
 Send a GET request to http://localhost:3000/contacts
 
-![Postman4](assets/Postman4.png)
-
-![logo](assets/DPIcon.png)
-
+![Postman4](../assets/Postman4.png)
 
 
 Congratulations! You have successfully just built your first API, called that API with a GET request, and created a resource using a POST request. Every single app you use today, at the most base level, uses this form to send and retrieve data.
