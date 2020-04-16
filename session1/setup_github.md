@@ -1,7 +1,7 @@
 # Setting Up Github
 *Session 1 Setup Guide*
 
-Windows:
+***Windows***
 
 Download "Git for Windows" from: https://gitforwindows.org/ and run the installer.
 
