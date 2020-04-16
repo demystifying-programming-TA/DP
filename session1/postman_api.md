@@ -18,15 +18,15 @@ Is my OS 32 bit or 64 bit? (Windows only): https://support.microsoft.com/en-us/h
 
 **2. Start up your own local webserver**
 
-In order to do this, you are first going to need to download npm. This stands for node package manager. This is a package for the JavaScript programming language Nodel.js. It also contains a command line client called npm that allows you to install and share javascript software.
+In order to do this, you are first going to need to download npm. This stands for node package manager. This is a package for the JavaScript programming language Node.js. It also contains a command line client called npm that allows you to install and share Javascript software.
 
-** Step 1: Install Homebrew. If you have not installed Homebrew already, please go [here](/session1/setup_terminal.md) **
+*Step 1: Install Homebrew, if you haven't already. If you have not installed Homebrew already, please go [here](/session1/setup_terminal.md)*
 
-** Step 2: Install Node. Use this command: **
+*Step 2: Install Node, if you haven't already. Use this command:*
 
 `brew install node`
 
-** Step 3: Let's start your local webserver! In order to do this, let's first create a folder in your filesystem where you will keep your data. To keep it simple, let's put it on your desktop, and call the folder name 'test_api'. **
+*Step 3: Start your local webserver! In order to do this, let's first create a folder in your filesystem where you will keep your data. To keep it simple, we will put it on your desktop, and call the folder name 'test_api'.*
 
 Enter the folder by navigating through the terminal:
 
@@ -40,11 +40,11 @@ If you are running into issues or errors, try this:
 
 `sudo npm install -g json-server`. This will prompt you for your system password, which you then have to type in.
 
-** Step 4: The ‘json-server’ documentation says to create a ‘db.json’ file to store the data, so that is the next step. **
+*Step 4: The ‘json-server’ documentation says to create a ‘db.json’ file to store the data, so that is the next step.*
 
 `touch db.json`
 
-** Step 5: You then start the server with the following command **
+*Step 5: You then start the server with the following command*
 
 `json-server --watch db.json`
 
@@ -52,7 +52,7 @@ At this point the server should be running and by default it runs on port 3000. 
 
 **3. Use Postman to retrieve and modify data.**
 
-** Step 6: Note that no resources were found because our ‘db.json’ file is empty. We should change that. **
+*Step 6: Note that no resources were found because our ‘db.json’ file is empty. We should change that.*
 
 I’ll create a JSON object with a key of ‘contacts’ and a value of an array of contact information. So, the db.json file now looks like this.
 
@@ -77,18 +77,23 @@ Once this is done and you refresh the page, you should now see resources listed,
 
 First I want to make sure that Postman can also see our data, so with the server still running, I send a GET request to http://localhost:3000/contacts and see the data returned.
 
+![Postman1](/assets/Postman1.png)
+
 
 Assuming we're good here, you just completed your first GET request! Well done. 
 
 Now, let's try a POST request. With a POST, request we need to provide all of the data we want included in our resource. In this case, that would be the id, first and last names, location, and email. In Postman, change the method next to the URL to ‘POST’, and under the ‘Body’ tab choose the ‘raw’ radio button and then ‘JSON (application/json)’ from the drop down. You can now type in the JSON you want to send along with the POST request. (Please follow along with the screen of your team leader). Let's use this as the body of your second request:
 
-{
-  "id": 4,
+`{
+  "id": 2,
   "firstName": "{Please fill in your first name here}",
   "lastName": "{Please fill in your last name here}",
   "location": "{Please fill in the city you are currently in here}",
   "email": "{Please fill in your email address here}"
 }`
+
+![Postman2](/assets/Postman2.png)
+
 
 Once you submit the request, if it is successful, you should actually see your new data in your db.json file locally. So please refresh that file and take a look!
 
@@ -96,6 +101,9 @@ Lastly, just to close it out, let's run another GET request in your Postman, and
 
 
 Send a GET request to http://localhost:3000/contacts
+
+![Postman3](/assets/Postman3.png)
+
 
 
 Congratulations! You have successfully just built your first API, called that API with a GET request, and created a resource using a POST request. Every single app you use today, at the most base level, uses this form to send and retrieve data.
