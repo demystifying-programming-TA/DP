@@ -5,7 +5,9 @@
 
 The command line will be your constant companion over the course of these 4 sessions (and hopefully beyond) - this guide will walk you through some of the most common commands and start to build your confidence when it comes to command line interactions. 
 
-*Note: We will be referring to the Terminal throughout this tutorial - the same instructions hold for Mac and Windows users with the exception that whereas paths on Mac use a ```/``` (e.g. ```Users/username```, paths on Windows use a ```\``` (e.g. ```C:\Users\username```)*
+*Note: We will be referring to the Terminal throughout this tutorial - the same instructions hold for Mac and Windows users with a couple exceptions we will note along the way. 
+
+For example: paths on Mac always use a ```/``` (e.g. ```Users/username```), while paths on Windows traditionally use a ```\``` (e.g. ```C:\Users\username```) That being said, ```/``` will work in PowerShell and many other applications*
 
 
 **Step 1: Launch the Terminal and Sublime Text (your 'coding environment')**
@@ -55,15 +57,15 @@ pwd
 
 ls
 
-ls -a
+ls -a (mac only)
 
-ls -l
+ls -l (mac only)
 
-ls -la
+ls -la (mac only)
 
 ```
 
-If after running the above commands you are still left wondering what a specific command does - try experimenting some more, if that doesn't clarify things, you can access the 'help' page for the command using the ```man``` command (e.g. ```man ls```). If you are wondering how to exit the menu that opens up (a very common challenge) - hit ```q``` on your keyboard, a good guess for exiting any programming menu/application (other very common way of exiting include: ```exit()```, ```q()```, ```CTRL+C```).
+If after running the above commands you are still left wondering what a specific command does - try experimenting some more, if that doesn't clarify things, you can access the 'help' page for the command using the ```man``` command (e.g. ```man ls```). If you are wondering how to exit the menu that opens up (a very common challenge) - hit ```q``` (mac) or ```CTRL + C``` (windows) on your keyboard, a good guess for exiting any programming menu/application (other very common way of exiting include for mac: ```exit()```, ```q()```, ```CTRL+C``` and for windows: typing ```exit``` and hitting enter)
 
 
 *Interacting with files, directories, and applications (part #2)*
@@ -80,7 +82,8 @@ pwd
 
 ls
 
-touch myfirstfile.txt
+touch myfirstfile.txt (mac)
+ni myfirstfile.txt (windows)
 
 ls
 
@@ -92,7 +95,8 @@ cp myfirstfile_renamed.txt myfirstfile_renamed_copy.txt
 
 ls 
 
-open myfirstfile_renamed.txt
+open myfirstfile_renamed.txt (mac)
+notepad myfirstfile_renamed.txt (windows)
 
 
 ```
@@ -106,15 +110,19 @@ At this point, you should be seeing an empty text file. Enter your first 'Hello 
 
 cd ~
 
-cat ~/myDPdirectory/myfirstfile_renamed.txt
+cat ~/myDPdirectory/myfirstfile_renamed.txt (mac)
+cat ~/myDPdirectory/myfirstfile_renamed.txt (windows)
 
-rm  -i ~/myDPdirectory/myfirstfile_renamed.txt
+rm  -i ~/myDPdirectory/myfirstfile_renamed.txt (mac)
+rm -confirm ~/myDPdirectory/myfirstfile_renamed.txt (windows)
 
-rm  -i ~/myDPdirectory/myfirstfile_renamed_copy.txt
+rm  -i ~/myDPdirectory/myfirstfile_renamed_copy.txt (mac)
+rm  -confirm ~/myDPdirectory/myfirstfile_renamed_copy.txt (windows)
 
 ls ~/myDPdirectory
 
-rm -rfi ~/myDPdirectory
+rm -rfi ~/myDPdirectory (mac)
+rm -recurse -confirm ~/myDPdirectory (windows)
 
 ls
 
@@ -132,10 +140,19 @@ If you get stuck - review the below checklist to rule out common errors:
 * It's common (e.g. in online forums such as [Stack Overflow](https://stackoverflow.com/questions)) to use a `$` sign to indicate the start of a command line command - when entering the command into the terminal you will need to ignore the `$` 
 
 
-* Spaces and capitalization matter (they do in every coding language!): ```cd myDPdirectory``` is not the same as ```cd mydpdirectory```; if you are accessing a path that contains a space, e.g. ```~/my folder/``` you will need to 'escape' the space (i.e. ```~/my\ folder/```)
+* Spaces and capitalization matter (they do in every coding language!!): ```cd myDPdirectory``` is not the same as ```cd mydpdirectory``` (...except capitalization doesn't matter in windows command line); if you are accessing a path that contains a space, e.g. ```~/my folder/``` you will need to 'escape' the space (i.e. ```~/my\ folder/```)
 
-* Some commands require you authenticate yourself with your administrator password (e.g. you won't be able to delete any system-related files unless you authenticate yourself). If you get an error message to that effect: Firstly pause and ask yourself if what you are doing is what you actually meant to do, secondly - assuming you are still OK with the command - use the ```sudo```  command ahead of your command (e.g. ``` sudo ls```). When entering ```sudo``` mode, you will be asked to enter your administrator password - note that it won't look like you are typing anything, continue entering your password and press enter once you are done. 
+* Some commands require you authenticate yourself with your administrator password (e.g. you won't be able to delete any system-related files unless you authenticate yourself). 
 
+If you get an error message to that effect: 
+
+Firstly pause and ask yourself if what you are doing is what you actually meant to do
+
+Secondly - assuming you are still OK with the command: 
+
+On a Mac/Linux you can use the ```sudo```  command ahead of your command (e.g. ``` sudo ls```). When entering ```sudo``` mode, you will be asked to enter your administrator password - note that it won't look like you are typing anything, continue entering your password and press enter once you are done. 
+
+On Windows (though not entirely the same) you can run close PowerShell and reopen it "as an administrator" by right clicking the app which will elevate your hacking powers.
 
 
 
