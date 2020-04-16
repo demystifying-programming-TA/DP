@@ -33,10 +33,12 @@ If you get the following message: "Your system is ready to brew", then move on t
 
 Type in the following commands:
 
-```brew update
+```
+brew update
 brew install git
 brew install npm
 brew install curl
 ```
+
 
 We just installed brew, so we could have skipped 'brew update'. However, it's generally good practice to run it before installing anything, since Homebrew is updated regularly.
