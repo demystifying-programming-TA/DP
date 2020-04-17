@@ -1,7 +1,7 @@
 # Getting Started With The Github Command Line Tool
 *Session 1 Mini-Tutorial*
 
-Let's walk through some basic commands in git. Note that this tutorial assumes that you already have git installed from the terminal tutorial. 
+Let's walk through some basic commands in git. Note that this tutorial assumes that you already have git installed from the either of the command line tutorials. 
 
 **Step 0: Set up your Identity**
 
