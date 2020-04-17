@@ -8,7 +8,7 @@ To start it up, simply search for ```Windows PowerShell``` in the search bar in 
 Here is a good tutorial if you're interested in exploring it further:
 https://www.guru99.com/powershell-tutorial.html
 
-## Setting up Git
+## Installing Git
 Download "Git for Windows" from: https://gitforwindows.org/ and run the installer.
 
 **Confirm your installation**
