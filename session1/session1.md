@@ -20,8 +20,7 @@ long-project and develop an initial concept (*and wireframe*)
 
 - #### Setup Guides
 	* Text Editor ([Sublime Text](/session1/setup_sublime.md))
-	* Command Line (MacOS: [Terminal](/session1/setup_terminal.md) / Windows: [Windows PowerShell](/session1/setup_windows_powershell.md))
-	* Version Control System ([Github](/session1/setup_github.md))
+	* Command Line & GitHub (MacOS: [Terminal](/session1/setup_terminal.md) / Windows: [Windows PowerShell](/session1/setup_windows_powershell.md))
 	* API Client ([Postman](https://www.postman.com/))
 
 - #### Mini-Tutorials
