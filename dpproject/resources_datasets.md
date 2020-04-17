@@ -1,5 +1,5 @@
 # Project Resources
-***
+
 ## Database and API Search Providers
 ***
 #### DataHub: 
