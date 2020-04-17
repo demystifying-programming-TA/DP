@@ -3,6 +3,12 @@
 
 Let's walk through some basic commands in git. Note that this tutorial assumes that you already have git installed from the terminal tutorial. 
 
+**Step 0: Set up your Identity**
+
+The work that you will save in the form of commits needs to have your name on it! To provide this information, we modify the `git config` file.
+
+![set up git config](../assets/session1/gitconfig.png)
+
 **Step 1: Create the directory that will contain your git repo**
 
 Mac users should launch terminal and Windows users should launch powershell to navigate to the directory where they will be saving work from this class. You can use the `cd` command to navigate to the directory. If you're okay with creating a directory on your desktop, simply type the following:
@@ -46,4 +52,20 @@ Time to commit your change! Use the `git commit` command as such:
 
 ![git commit](../assets/session1/gitcommit.png)
 
-**Step 6: Push to git**
+**Step 6: Set up your repo on github**
+
+Navigate to [github](www.github.com) and login in to your account. Click on the + button on the top right and then click on New repository.
+
+![New repo button](../assets/session1/newrepo.png)
+
+Fill in the name of your repo, and then click on Create repository at the bottom.
+
+![Create repo button](../assets/session1/createrepo.png)
+
+**Step 7: Push your repo from command line**
+
+Since we have an existing repo, we will follow the *second* block of instructions to push our existing repo from command line.
+
+![git push](../assets/session1/gitpush.png)
+
+That was your first commit! Welcome to the world of programming!
