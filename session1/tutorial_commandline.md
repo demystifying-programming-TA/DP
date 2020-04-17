@@ -1,7 +1,7 @@
 # Getting Started With The Command Line 
 *Session 1 Mini-Tutorial*
 
-**This guide assumes that you have already installed/set-up the [Terminal](/session1/setup_terminal.md) / [Windows Terminal](/session1/setup_windowsterminal.md) and [Sublime Text](/session1/setup_sublime.md)**
+**This guide assumes that you have already installed/set-up the [Terminal](/session1/setup_terminal.md) or [Windows PowerShell](/session1/setup_windows_powershell.md) and [Sublime Text](/session1/setup_sublime.md)**
 
 The command line will be your constant companion over the course of these 4 sessions (and hopefully beyond) - this guide will walk you through some of the most common commands and start to build your confidence when it comes to command line interactions. 
 
