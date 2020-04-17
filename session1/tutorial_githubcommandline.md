@@ -44,7 +44,7 @@ We now 'stage' the README file, which is just a fancy way of indicating to git t
 
 ![git add](../assets/session1/gitadd.png)
 
-Try typing git status to see the change that `git add` made.
+Try typing `git status` to see the change that `git add` made.
 
 **Step 5: Commit changes**
 
@@ -54,13 +54,13 @@ Time to commit your change! Use the `git commit` command as such:
 
 **Step 6: Set up your repo on github**
 
-Navigate to [github](www.github.com) and login in to your account. Click on the + button on the top right and then click on New repository.
+Navigate to [github](https://www.github.com) and login to your account. Click on the + button on the top right and then click on New repository.
 
 ![New repo button](../assets/session1/newrepo.png)
 
 Fill in the name of your repo, and then click on Create repository at the bottom.
 
-![Create repo button](../assets/session1/createrepo.png)
+![Create repo button|1490x1382,50%](../assets/session1/createrepo.png)
 
 **Step 7: Push your repo from command line**
 
@@ -68,4 +68,4 @@ Since we have an existing repo, we will follow the *second* block of instruction
 
 ![git push](../assets/session1/gitpush.png)
 
-That was your first commit! Welcome to the world of programming!
+That was your first commit! Welcome to the world of programming!!
