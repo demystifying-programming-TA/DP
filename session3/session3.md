@@ -14,7 +14,7 @@
 > What materials should I look at ahead of class?
 
 - #### Setup Guides (* Coming Soon)
-	* Backend Language (Python + Python Packages (Incl. iPython))
+	* Backend Language (Python Packages (incl. iPython))
 
 - #### Mini-Tutorials (* Coming Soon)
 	* Python

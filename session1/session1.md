@@ -13,7 +13,7 @@
 
 
 4) (Homework): Pick a topic (i.e. dataset) for your semester 
-long-project and develop an initial concept (*and wireframe*) 
+long-project and develop an initial concept
 
 
 > What materials should I look at ahead of class?
