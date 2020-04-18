@@ -39,4 +39,5 @@ https://datahub.io/world-bank
 
 #### COVID-19 Data:
 https://datahub.io/core/covid-19
+
 https://github.com/nytimes/covid-19-data
