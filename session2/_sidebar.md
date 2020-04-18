@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
-* [Return to Homepage](/#demystifying-programming-dp)
-* [Return to Session 2 Overview](/session2/session2)
+* [Homepage](/#demystifying-programming-dp)
+* [Session 2 Overview](/session2/session2)
 <hr>
 * Setup Guides  
 * [Browser + Web Developer Tools - Chrome](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)

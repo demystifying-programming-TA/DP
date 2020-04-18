@@ -1,7 +1,7 @@
 # Session 2 (Frontend)
 *April 24th (10:00 am - 1:00 pm EST)*
 
-> In this session you will... (* Subject to change)
+> In this session you will... 
 
 1) Understand the frontend (web) development workflow (web developer tools, local web server)
 

@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
-* [Return to Homepage](/#demystifying-programming-dp)
-* [Return to Session 1 Overview](/session1/session1)
+* [Homepage](/#demystifying-programming-dp)
+* [Session 1 Overview](/session1/session1)
 <hr>
 * Setup Guides  
 * [Text Editor - Sublime Text](/session1/setup_sublime.md)
