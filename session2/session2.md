@@ -14,14 +14,14 @@
 
 > What materials should I look at ahead of class?
 
-- #### Setup Guides (* Coming Soon)
-	* Browswer + Web Developer Tools (Chrome)
-	* Local Web Server (Python)
+- #### Setup Guides 
+	* [Browswer + Web Developer Tools (Chrome)](/session2/setup_sublime.md)
+	* [Local Web Server (Python)](/session2/setup_python.md)
 
-- #### Mini-Tutorials (* Coming Soon)
-	* Local Web Development (Web Developer Tools, Local Web Server)
-	* Static Frontend Development (HTML, CSS)
-	* Dynamic Frontend Development (JavaScript (JS))
+- #### Mini-Tutorials
+	* [Local Web Development (Web Developer Tools, Local Web Server)](/session2/tutorial_localwebdevelopment.md)
+	* [Static Frontend Development (HTML, CSS)](/session2/tutorial_html_css.md)
+	* [Dynamic Frontend Development (JavaScript (JS))](/session2/tutorial_js.md)
 
 > What resources should I look at if I want to learn more about the topics covered?
 
