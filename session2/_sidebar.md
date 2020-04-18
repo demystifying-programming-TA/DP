@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [Homepage](/#demystifying-programming-dp)
+* [Home](/#demystifying-programming-dp)
 * [Session 2 Overview](/session2/session2)
 <hr>
 * Setup Guides  
