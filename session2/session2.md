@@ -15,7 +15,7 @@
 > What materials should I look at ahead of class?
 
 - #### Setup Guides 
-	* [Browswer + Web Developer Tools (Chrome)](/session2/setup_sublime.md)
+	* [Browswer + Web Developer Tools (Chrome)](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)
 	* [Local Web Server (Python)](/session2/setup_python.md)
 
 - #### Mini-Tutorials
