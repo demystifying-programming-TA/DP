@@ -1,4 +1,4 @@
-# Session 4 (Integration and Deployment)
+# Session 4: Integration and Deployment
 *May 8th (10:00 am - 1:00 pm EST)*
 
 > In this session you will... (* Subject to change)

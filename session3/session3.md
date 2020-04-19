@@ -1,4 +1,4 @@
-# Session 3 (Backend)
+# Session 3: Backend
 *May 1st (10:00 am - 1:00 pm EST)*
 
 > In this session you will... (* Subject to change)

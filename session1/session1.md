@@ -1,4 +1,4 @@
-# Session 1 (Getting Started)
+# Session 1: Getting Started
 *April 17th (10:00 am - 1:00 pm EST)*
 
 > In this session you will...

@@ -1,4 +1,4 @@
-# Project Resources
+# DP Project Resources
 *Datasets*
 
 ## Database and API Search Providers

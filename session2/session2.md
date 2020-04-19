@@ -1,4 +1,4 @@
-# Session 2 (Frontend)
+# Session 2: Frontend
 *April 24th (10:00 am - 1:00 pm EST)*
 
 > In this session you will... 
