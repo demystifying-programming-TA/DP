@@ -1,4 +1,4 @@
-# Getting Started With Local Web Development (Web Developer Tools, Local Web Server)
+# Getting Started With Local Web Development 
 *Session 2 Mini-Tutorial*
 
 **Step 1: Web Developer Tools**

@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-&nbsp;&nbsp;&nbsp;<a href="/#/?id=demystifying-programming-dp"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="/#/session2/session2"><span class="fa-stack"><strong class="fa-stack-xs">Session&nbsp;2</strong></span></a><hr>
+&nbsp;&nbsp;&nbsp;<a href="DP/#/?id=demystifying-programming-dp"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="DP/#/session2/session2"><span class="fa-stack"><strong class="fa-stack-xs">Session&nbsp;2</strong></span></a><hr>
 
 * Setup Guides  
 * [Browser + Web Developer Tools - Chrome](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)

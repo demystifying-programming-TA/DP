@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-&nbsp;&nbsp;&nbsp;<a href="/#/?id=demystifying-programming-dp"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="/#/session1/session1"><span class="fa-stack"><strong class="fa-stack-xs">Session&nbsp;1</strong></span></a><hr>
+&nbsp;&nbsp;&nbsp;<a href="DP/#/?id=demystifying-programming-dp"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="DP/#/session1/session1"><span class="fa-stack"><strong class="fa-stack-xs">Session&nbsp;1</strong></span></a><hr>
 
 * Setup Guides  
 * [Text Editor - Sublime Text](/session1/setup_sublime.md)
