@@ -3,7 +3,7 @@
 
 You will be using Python to run a local web server - a critical tool in the local web development work flow. The below instructions will walk you through the process for setting up Python 3. 
 
-<br><br>
+<br>
 
 **Mac**
 
@@ -19,7 +19,7 @@ Once the installation completes, type ```python3 --version``` into the Terminal.
 
 Keeping Python up-to-date is good practice, you can upgrade Python using the Terminal command ```brew upgrade python3```. 
 
-<br><hr><br>
+<hr>
 
 **Windows**
 
