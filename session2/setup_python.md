@@ -31,7 +31,7 @@ Run the installer and make sure that you add Python to your "PATH" by clicking t
 
 ![python_PATH](../assets/session2/python_PATH.png)
 
-This will allow you to run python from powershell by simply typing "python" instead of needing to include the 'path' to the python.exe file. (eg. C:\User\Zach\1337_h4ck1ng_files\python.exe)
+This will allow you to run python from powershell by simply typing ```python``` instead of needing to include the 'path' to the python.exe file. (eg. ```C:\User\Zach\1337_h4ck1ng_files\python.exe```)
 
 After installing, test your installation by running the following code in Windows Powershell: ```python --version```
 
