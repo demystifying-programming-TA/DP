@@ -21,4 +21,30 @@ Keeping Python up-to-date is good practice, you can upgrade Python using the Ter
 
 **Windows**
 
-*Coming Soon*
+*This guide assumes that you have already installed/set-up the [Windows PowerShell](/session1/setup_windows_powershell.md)*
+
+As of 2020, Python 2.7 has officially been deprecated which is why you should install Python 3 - while the syntax of Python 2/3 is the same for the most part, there are differences! 
+
+To install Python 3, download the installer for Windows for version 3.8.2 from https://www.python.org/downloads/
+
+Run the installer and make sure that you add Python to your "PATH" by clicking this box:
+
+![python_PATH](../assets/session2/python_PATH.png)
+
+This will allow you to run python from powershell by simply typing "python" instead of needing to include the 'path' to the python.exe file. (eg. C:\User\Zach\1337_h4ck1ng_files\python.exe)
+
+After installing, test your installation by running the following code in Windows Powershell: ```python --version```
+
+Now let's try installing a module (python package) that will enhance the capability of python and give it functionalities like R. Go into Windows PowerShell and type the following: ```pip install anaconda```
+
+This should be quick and you will get a message when it's complete. Finally, run one more command to make sure all of your modules are updated:
+
+```pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}```
+
+That might take a little bit longer to run, but after that you're ready to rock!
+
+Other fun commands:
+
+```pip list --outdated``` (check which modules are out of date)
+
+```pip install --upgrade package_name``` (check and upgrade a package named: 'package_name')
