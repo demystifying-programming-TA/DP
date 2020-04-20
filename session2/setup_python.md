@@ -1,6 +1,9 @@
 # Setting Up Your Local Webserver (Python)
 *Session 2 Setup Guide*
 
+You will be using Python to run a local web server - a critical tool in the local web development work flow. The below instructions will walk you through the process for setting up Python 3. 
+
+<br><br>
 
 **Mac**
 
