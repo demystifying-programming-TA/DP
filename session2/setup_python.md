@@ -3,8 +3,6 @@
 
 You will be using Python to run a local web server - a critical tool in the local web development work flow. The below instructions will walk you through the process for setting up Python 3. 
 
-<br>
-
 **Mac**
 
 *This guide assumes that you have already installed/set-up the [Terminal](/session1/setup_terminal.md)*
