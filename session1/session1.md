@@ -30,7 +30,7 @@ long-project and develop an initial concept
 
 > What resources should I look at if I want to learn more about the topics covered?
 
-Here are some additional resources you might want to look at if you want to 'upgrade' your coding environment (Sublime + Terminal / WIndows PowerShell):
+Here are some additional resources you might want to look at if you want to 'upgrade' your coding environment (Sublime + Terminal / Windows PowerShell):
 
 * (Mac only) iTerm2 is a Terminal replacement that comes with additional functionalities that are designed to improve your coding experience: https://www.iterm2.com/
 
