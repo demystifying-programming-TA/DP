@@ -27,7 +27,7 @@ As of 2020, Python 2.7 has officially been deprecated which is why you should in
 
 To install Python 3, download the installer for Windows for version 3.8.2 from https://www.python.org/downloads/
 
-Run the installer and make sure that you add Python to your "PATH" by clicking this box:
+Run the installer and make sure that you add Python to your "PATH" by clicking this box *(note: your installer should say Python 3.8.2)*:
 
 ![python_PATH](../assets/session2/python_PATH.png)
 
