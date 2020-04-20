@@ -30,5 +30,8 @@ long-project and develop an initial concept
 
 > What resources should I look at if I want to learn more about the topics covered?
 
-*Coming Soon*
+Here are some additional resources you might want to look at if you want to 'upgrade' your coding environment (Sublime + Terminal / WIndows PowerShell):
 
+* (Mac only) iTerm2 is a Terminal replacement that comes with additional functionalities that are designed to improve your coding experience: https://www.iterm2.com/
+
+* (Mac only) SendText is a Sublime Text plug-in that allows you to 'send' code you have written from Sublime Text to the Terminal (or iTerm2) simply by pressing ```cmd+Enter```: https://github.com/wch/SendText
