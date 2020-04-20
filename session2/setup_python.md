@@ -25,7 +25,7 @@ Keeping Python up-to-date is good practice, you can upgrade Python using the Ter
 
 As of 2020, Python 2.7 has officially been deprecated which is why you should install Python 3 - while the syntax of Python 2/3 is the same for the most part, there are differences! 
 
-To install Python 3, download the installer for Windows for version 3.8.2 from https://www.python.org/downloads/
+To install Python 3.8.2, download the installer for Windows for version 3.8.2 from https://www.python.org/downloads/
 
 Run the installer and make sure that you add Python to your "PATH" by clicking this box *(note: your installer should say Python 3.8.2)*:
 
@@ -33,7 +33,7 @@ Run the installer and make sure that you add Python to your "PATH" by clicking t
 
 This will allow you to run python from powershell by simply typing ```python``` instead of needing to include the 'path' to the python.exe file. (eg. ```C:\User\Zach\1337_h4ck1ng_files\python.exe```)
 
-After installing, test your installation by running the following code in Windows Powershell: ```python --version```
+After installing, test your installation by running the following code in Windows Powershell: ```python --version``` You should have version 3.8.2.
 
 Now let's try installing a module (python package) that will enhance the capability of python and give it functionalities like R. Go into Windows PowerShell and type the following: ```pip install anaconda```
 
