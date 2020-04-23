@@ -5,7 +5,7 @@
 
 *To help you build your confidence, we suggest that you try to tackle each of the below steps on your own first before you look at the sample code.*
 
-**Step 0: Creating your DP Directory Structure**
+**Step 0: Create your DP Directory Structure**
 
 In this section we will create your ```DPProject``` folder, and within this folder create dedicated ```frontend``` and ```backend``` folders. 
 
@@ -19,7 +19,7 @@ ls
 
 **Step 1: Create placeholder files**
 
-In this section we will create an empty README file (it's good practice to always create a README file which gives a brief description of the project), three placeholder script files which will form the basis for the frontend we will build in session #2 (```index.html``` (HTML), ```style.css``` (CSS), and ```function.js``` (JavaScript)), and one placeholder script file which will form the basis for the backend we will build in session #3 (```dataprocessing.py``` (Python))
+In this section we will create an empty ```README.md``` file (it's good practice to always create a README file which gives a brief description of the project), three placeholder files which will form the basis for the Frontend we will build in session #2 (```index.html``` (HTML), ```style.css``` (CSS), and ```function.js``` (JavaScript)), and one placeholder file which will form the basis for the Backend we will build in session #3 (```dataprocessing.py``` (Python))
 
 
 ````
@@ -37,7 +37,7 @@ ls
 
 **Step 2: Commit your DP Project Folder to Github**
 
-In this section we will commit your DP Project Folder to Github, i.e., ensure that your project is version controlled. 
+In this section we will commit your DP Project Folder to Github. 
 
 ````
 cd DPProject
