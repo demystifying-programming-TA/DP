@@ -31,10 +31,10 @@ touch README.md
 cd frontend
 touch index.html
 touch style.css
-touch function.js 
+touch function.js
 cd ..
 cd backend
-touch dataprocessing.js
+touch dataprocessing.py
 ls
 ````
 
