@@ -30,12 +30,13 @@ We then add following snippet of code:
 <html>
 
 <!-- Header -->
-<header>
+<head>
+
   <title>
     Covid-19 webpage
   </title>
-  
-</header>
+
+</head>
 
 <!-- Body -->
 <body>
@@ -43,31 +44,16 @@ We then add following snippet of code:
     <!-- Overview of the website -->
     <br> <br> <br>
 
-    <p><h1 align="center">Overall 2634 people have been infected by COVID-19 and 3452 people have died</h1></p>
+    <p><h1 align="center">As of April 23rd, more than 2,616,000 people have been sickened by COVID-19 <br>and at least 181,000 people have died</h1></p>
 
-     <br> <br> <br>
-     <hr>
-     <br> <br> <br>
+    <br> <br> <br>
+    <hr>
+    <br> <br> <br>
 
-    <!-- Buttons to generate graph & graph -->
-    <div style="text-align:center" id="chart_placeholder">
+    <!-- Button to generate graph & placeholder for location & placeholder for graph -->
+    <div>
       
-      <button>View statistics in the country I am currently in</button>
-
-      <br><br>
-
-      <p>View statistics in another country</p>
-
-      <select id="country_dropdown">
-        <option value="United States">United States</option>
-        <option value="Germany">Germany</option> 
-      </select>
-
-      <br><br>
-
-      <button>View statistics in the selected country</button>
-
-      <div id="chart" style="text-align:center"> </div>
+      <button>See the number of infections and deaths in my area</button>
 
     </div>
  
