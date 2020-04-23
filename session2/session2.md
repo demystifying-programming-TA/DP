@@ -19,6 +19,6 @@
 - #### Mini-Tutorials
 	* [Static Frontend Development - Part I (HTML + Web Server)](/session2/tutorial_html_webserver.md)
 	* [Static Frontend Development - Part II (CSS)](/session2/tutorial_css.md)
-	* [Dynamic Frontend Development (JavaScript + Web Developer Tools](/session2/tutorial_js_webdeveloper.md)
+	* [Dynamic Frontend Development (JavaScript + Web Developer Tools)](/session2/tutorial_js_webdeveloper.md)
 
 
