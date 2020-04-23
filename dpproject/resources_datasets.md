@@ -5,11 +5,11 @@
 #### COVID Tracking Project:
 https://covidtracking.com/api
 
-#### World Bank Data:
-http://datatopics.worldbank.org/universal-health-coverage/coronavirus/
+#### APIfy
+https://apify.com/petrpatek/covid-19-aggregator
 
-#### Postman:
-https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#43e467ac-2cb0-4409-84e8-e18794e47271
+#### Covid19api:
+https://covid19api.com/
 
 
 ## CSVs
@@ -28,7 +28,7 @@ https://github.com/nytimes/covid-19-data
 #### HDX - European Centre for Disease Prevention and Control
 https://data.humdata.org/dataset/ecdc-covid-19
 
-#### HDX - Metabiota Spatiotemporal Data
+#### HDX - Metabiota - Spatiotemporal Data
 https://data.humdata.org/dataset/2019-novel-coronavirus-cases
 
 #### HDX - Johns Hopkins
