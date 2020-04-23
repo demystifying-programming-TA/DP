@@ -19,7 +19,10 @@ ls
 
 **Step 1: Create placeholder files**
 
-In this section we will create an empty ```README.md``` file (it's good practice to always create a README file which gives a brief description of the project), three placeholder files which will form the basis for the Frontend we will build in session #2 (```index.html``` (HTML), ```style.css``` (CSS), and ```function.js``` (JavaScript)), and one placeholder file which will form the basis for the Backend we will build in session #3 (```dataprocessing.py``` (Python))
+In this section we will create:
+* An empty ```README.md``` file (it's good practice to always create a README file which gives a brief description of the project)
+* Three placeholder files which will form the basis for the Frontend we will build in session #2 (```index.html``` (HTML), ```style.css``` (CSS), and ```function.js``` (JavaScript))
+* One placeholder file which will form the basis for the Backend we will build in session #3 (```dataprocessing.py``` (Python))
 
 
 ````
