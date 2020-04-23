@@ -78,4 +78,5 @@ We then add following snippet of code:
 ````
 
 **Step 3: Save and exit the file and launch index.html again**
+
 Ensure your server is up and running and refresh or relaunch index.html. You should now see content within the webpage.
