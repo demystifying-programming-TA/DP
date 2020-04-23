@@ -14,8 +14,9 @@
 * [Part II (CSS)](/session2/tutorial_css.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:14px">Dynamic Frontend Development</font>
-* [Part I (JavaScript + Web Developer Tools)](/session2/tutorial_js_webdeveloper.md)
+* [Part I (JavaScript + Web Developer Tools)](/session2/tutorial_js_webdeveloper.md)  
 
 
-* Other Resources
+* Other Resources  
+
 * [Supplementary Materials](/session2/supplementary_materials.md)
