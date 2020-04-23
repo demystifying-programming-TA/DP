@@ -15,7 +15,14 @@ You should have two tabs that look like this: ![create a file](../assets/session
 
 
 **Step 1: Link your CSS page to your HTML Page**
-Connect your CSS file with your ```index.html ``` page by using the following  ```href ``` tag  ```<href="style.css" rel="stylesheet" type="text/css"> ```. If your html page is not  
+Connect your CSS file with your ```index.html ``` page by using the following  ```href ``` tag  ```<link rel="stylesheet", type="text/css" href="style.css"> ``` in between your header tags. If your html page is not in the same directory or subdirectory as your style.css file state the name of the directory within the href tag. (i.e.  ```href="Desktop/style.css" ``` ) 
+
+
+**Step 2: Choose a background color for your website**
+Go to [flatuicolors.com](flatuicolors.com) to choose a color that will be the background color for your webpage. Copy the hexcode of your chosen color by clicking and once copied, in your ```style.css ``` webpage start with the following code: 
+
+
+
 <br>
 
 *Coming Soon*
