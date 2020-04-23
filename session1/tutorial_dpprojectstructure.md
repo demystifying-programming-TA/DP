@@ -7,7 +7,7 @@
 
 **Step 0: Create your DP Directory Structure**
 
-In this section we will create your ```DPProject``` folder, and within this folder create dedicated ```frontend``` and ```backend``` folders. *Note that you will need create your ```DPProject``` within the folder within which you initialized Git in the [Github Command Line Tool](/session1/tutorial_githubcommandline.md) tutorial.*
+In this section we will create your ```DPProject``` folder, and within this folder create dedicated ```frontend``` and ```backend``` folders. *Note that you will need create your ```DPProject``` in the folder within which you initialized Git in the [Github Command Line Tool](/session1/tutorial_githubcommandline.md) tutorial.*
 
 ````
 mkdir DPProject
