@@ -7,6 +7,11 @@
 * [Local Web Server - Python](/session2/setup_python.md)
 
 * Mini-Tutorials 
-* [Local Web Development](/session2/tutorial_localwebdevelopment.md)
-* [Static Frontend Development (HTML, CSS)](/session2/tutorial_html_css.md)
-* [Dynamic Web Development (JavaScript (JS))](/session2/tutorial_js.md)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:14px">Static Frontend Development</font>
+* [Part I (HTML + Web Server)](/session2/tutorial_html_webserver.md)
+* [Part II (CSS)](/session2/tutorial_css.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:14px">Dynamic Frontend Development</font>
+* [Part I (JavaScript + Web Developer Tools)](/session2/tutorial_js_webdeveloper.md)

@@ -27,6 +27,7 @@ long-project and develop an initial concept
 - #### Mini-Tutorials
 	* [Command Line](/session1/tutorial_commandline.md)
 	* [Github Command Line Tool](/session1/tutorial_githubcommandline.md)
+	* [DP Project Structure](/session1/tutorial_dpprojectstructure.md)
 
 > What resources should I look at if I want to learn more about the topics covered?
 

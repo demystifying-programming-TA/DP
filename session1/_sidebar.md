@@ -12,3 +12,4 @@
 * Mini-Tutorials 
 * [Command Line](/session1/tutorial_commandline.md)
 * [Github Command Line Tool](/session1/tutorial_githubcommandline.md)
+* [DP Project Structure](/session1/tutorial_dpprojectstructure.md)
