@@ -3,7 +3,7 @@
 
 **This guide assumes that you have are comfortable with the Command Line and the Github Command Line Tool, if you need a refresher - take a look at the [Command Line](/session1/tutorial_commandline.md) and [Github Command Line Tool](/session1/tutorial_githubcommandline.md) tutorials**
 
-*To help you build your confidence, we suggest that you try to tackle each of the below steps on your own first before you look at the sample code.*
+*To help you build your confidence, we suggest you tackle each of the below steps on your own before you look at the sample code.*
 
 **Step 0: Create your DP Directory Structure**
 
