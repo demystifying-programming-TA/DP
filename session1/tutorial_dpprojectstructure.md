@@ -38,7 +38,7 @@ touch dataprocessing.py
 ls
 ````
 
-*Note: If you are using Windows PowerShell you will use the ```ni``` command in place of hte ```touch``` command*
+*Note: If you are using Windows PowerShell you will use the ```ni``` command in place of the ```touch``` command*
 
 **Step 2: Commit your DP Project Folder to Github**
 
