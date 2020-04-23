@@ -21,7 +21,4 @@
 	* [Static Frontend Development - Part II (CSS)](/session2/tutorial_css.md)
 	* [Dynamic Frontend Development (JavaScript + Web Developer Tools](/session2/tutorial_js_webdeveloper.md)
 
-> What resources should I look at if I want to learn more about the topics covered?
-
-*Coming Soon*
 

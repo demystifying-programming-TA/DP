@@ -8,3 +8,5 @@
 * Mini-Tutorials 
 * ##### *Coming Soon*
 
+* Other Resources
+* ##### *Coming Soon*

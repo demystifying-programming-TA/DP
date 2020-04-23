@@ -20,8 +20,3 @@
 - #### Mini-Tutorials (* Coming Soon)
 	* Flask
 	* AWS Command Line Tool
-
-> What resources should I look at if I want to learn more about the topics covered?
-
-*Coming Soon*
-

@@ -18,8 +18,3 @@
 
 - #### Mini-Tutorials (* Coming Soon)
 	* Python
-
-> What resources should I look at if I want to learn more about the topics covered?
-
-*Coming Soon*
-
