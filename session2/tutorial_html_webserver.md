@@ -88,7 +88,7 @@ To add an image:
 To add a hyperlink:
 
 ````
-<a href="https://www.w3schools.com">
+<a href="https://www.google.com">
     This is a link 
 </a>
 ````
