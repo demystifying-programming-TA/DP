@@ -22,7 +22,7 @@ Tip: Use Ctrl + C to kill server process and get back to the command line prompt
 
 Now, we move on to the HTML portion of things and set up our webpage. Open index.html in sublime. Try using right click to force index.html to open via sublime as opposed to your browser.
 
-We then add following snippet of code:
+The following snippet of code can help you get started with your webpage. Read through the comments to make changes that you would like to see!
 
 ````
 <!doctype html>
@@ -33,7 +33,7 @@ We then add following snippet of code:
 <head>
 
   <title>
-    Covid-19 webpage
+    <!-- Pick a title for your website! -->
   </title>
 
 </head>
@@ -41,7 +41,7 @@ We then add following snippet of code:
 <!-- Body -->
 <body>
 
-    <!-- Overview of the website -->
+    <!-- Provide an overview of the website -->
     <br> <br> <br>
 
     <p><h1 align="center">As of April 23rd, more than 2,616,000 people have been sickened by COVID-19 <br>and at least 181,000 people have died</h1></p>
@@ -50,7 +50,7 @@ We then add following snippet of code:
     <hr>
     <br> <br> <br>
 
-    <!-- Button to generate graph & placeholder for location & placeholder for graph -->
+    <!-- Let's insert a button to generate graph & placeholder for location & placeholder for graph -->
     <div>
       
       <button>See the number of infections and deaths in my area</button>
@@ -66,3 +66,29 @@ We then add following snippet of code:
 **Step 3: Save and exit the file and launch index.html again**
 
 Ensure your server is up and running and refresh or relaunch index.html. You should now see content within the webpage.
+
+**[Optional] Check out these tags that you can use to get a website up and going!**
+
+To build a drop down menu:
+
+````
+<select>
+    <option value="Country A">Country A</option>
+    <option value="Country B">Country B</option>
+    <option value="Country C">Country C</option>
+</select>    
+````
+
+To add an image:
+
+````
+<img src="filepath to image" alt="An image I chose" height="42" width="42">
+````
+
+To add a hyperlink:
+
+````
+<a href="https://www.w3schools.com">
+    This is a link 
+</a>
+````
