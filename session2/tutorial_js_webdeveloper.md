@@ -14,6 +14,10 @@ Open your  ```index.html``` folder by going into Sublime --> File --> Open. Go t
 
 **[Optional] Explore the Web Developer Tools**
 
+To practice your Web Developer skills, try:
+* Looking at the source code for your website
+* Using the element inspector to edit elements of your website on the fly
+* Entering (i) some JavaScript commands into the console (interactive JavaScript coding) and (ii) inserting a ```<script type="text/javascript">console.log("Hello World")</script>``` into the body of your ```index.html``` file (loggging). 
 
 **Step 0: Link your JS page to your HTML page**
 
@@ -26,7 +30,7 @@ Load jquery and Google Charts by adding the following in between your <head> </h
 
 ```
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-google.charts.load('current', {packages: ['corechart', 'bar']});
+<script type="text/javascript"> google.charts.load('current', {packages: ['corechart', 'bar']});</script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 ```
