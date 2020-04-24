@@ -44,7 +44,7 @@ The following snippet of code can help you get started with your webpage. Read t
     <!-- Provide an overview of the website -->
     <br> <br> <br>
 
-    <p><h1 align="center">As of April 23rd, more than 2,616,000 people have been sickened by COVID-19 <br>and at least 181,000 people have died</h1></p>
+    <p><h1>As of April 23rd, more than 2,616,000 people have been sickened by COVID-19 <br>and at least 181,000 people have died</h1></p>
 
     <br> <br> <br>
     <hr>
