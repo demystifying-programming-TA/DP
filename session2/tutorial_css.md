@@ -16,7 +16,7 @@ You should have two tabs that look like this: ![create a file](../assets/session
 
 **Step 1: Link your CSS page to your HTML Page**
 
-Connect your CSS file with your ```index.html ``` page by using the following  ```href ``` tag  ```<link rel="stylesheet", type="text/css", href="style.css"> ``` in between your header tags. If your html page is not in the same directory or subdirectory as your style.css file state the name of the directory within the href tag. (i.e.  ```href="Desktop/style.css" ``` ) 
+Connect your CSS file with your ```index.html ``` page by using the following  ```href ``` tag  ```<link rel="stylesheet", type="text/css", href="style.css"> ``` in between your head tags. If your html page is not in the same directory or subdirectory as your style.css file state the name of the directory within the href tag. (i.e.  ```href="Desktop/style.css" ``` ) 
 
 
 **Step 2: Choose a background color for your website**
@@ -30,6 +30,21 @@ body {
 
 ````
 
+**Step 2: Choose a Font from Google Fonts for your website** 
+
+Browse through the [Google Fonts Website](https://fonts.google.com/) and pick a font you'd like to use. Once you pick a font go to your ```index.html ``` page and add the following ```<link href='https://fonts.googleapis.com/css?family=[INSERT FAMILY NAME HERE]' rel='stylesheet'>``` Between the ```<head> </head>``` tags. If the font you choose has spaces in it's name join each part of the name with a "+" sign. 
+
+Example:  ```<link href='https://fonts.googleapis.com/css?family=firstword+secondword' rel='stylesheet'>```
+
+Go back to your ```style.css ``` page and 
+````
+body {
+  background-color: [INSERT HEXCODE]; 
+  font-family: [Insert Chosen Font Name];
+  font-size: [Insert Number]px; 
+}
+
+````
+
 <br>
 
-*Coming Soon*
