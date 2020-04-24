@@ -11,6 +11,11 @@
 
 Open your  ```index.html``` folder by going into Sublime --> File --> Open. Go to your Frontend Folder and open your ```index.html``` file. 
 
+**[Optional] Explore the Web Developer Tools**
+
+
+
+
 **Step 1: Link your JS page to your HTML page**
 
 Connect your JS file with your ```index.html ``` page by using the following  tag  ```<script type="text/javascript" src="function.js"></script>  ``` in between your <head> </head> tags. If your html page is not in the same directory or subdirectory as your function.js file state the name of the directory within the href tag. (i.e.  ```src="Desktop/function.js" ``` ) 
@@ -20,11 +25,17 @@ Connect your JS file with your ```index.html ``` page by using the following  ta
 
 **Step 3: Link your html button to the ```InitializeGraph``` function **
 
+
 **Step 4: Create an ```DrawGraph``` function that visualizes a given set of location-specific data**
 
 **Step 5: Link your two functions, substituting hard-coded data for an API call to the backend**
 
-**Step 6: Commit your updated repository to Github**
+**Step 6: Save and exit the file and launch index.html again**
+
+Ensure your server is up and running and refresh or relaunch index.html. You should now see content within the webpage.
+
+**Step 7: Commit your updated repository to Github**
+
 Follow the steps outlined in the [Github Command Line](/session1/tutorial_githubcommandline.md) tutorial to commit your code to Github. 
 
 <br>
