@@ -17,7 +17,7 @@ Open your  ```index.html``` folder by going into Sublime --> File --> Open. Go t
 To practice your Web Developer skills, try:
 * Looking at the source code for your website
 * Using the element inspector to edit elements of your website on the fly
-* Entering (i) some JavaScript commands into the console (interactive JavaScript coding) and (ii) inserting a ```<script type="text/javascript">console.log("Hello World")</script>``` into the body of your ```index.html``` file (loggging). 
+* Entering (i) some JavaScript commands into the console (interactive JavaScript coding) and (ii) inserting a ```<script type="text/javascript">console.log("Hello World")</script>``` into the body of your ```index.html``` file (loggging)
 
 **Step 0: Link your JS page to your HTML page**
 
