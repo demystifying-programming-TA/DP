@@ -32,7 +32,7 @@ body {
 
 **Step 2: Choose a Font from Google Fonts for your website** 
 
-Browse through the [Google Fonts Website](https://fonts.google.com/) and pick a font you'd like to use. Once you pick a font go to your ```index.html ``` page and add the following ```<link href='https://fonts.googleapis.com/css?family=[INSERT FAMILY NAME HERE]' rel='stylesheet'>``` Between the ```<head> </head>``` tags. If the font you choose has spaces in it's name join each part of the name with a "+" sign. 
+Browse through the [Google Fonts Website](https://fonts.google.com/) and pick a font you'd like to use. Once you pick a font go to your ```index.html ``` page and add the following ```<link href='https://fonts.googleapis.com/css?family=[INSERT FONT NAME HERE]' rel='stylesheet'>``` Between the ```<head> </head>``` tags. If the font you choose has spaces in it's name join each part of the name with a "+" sign. 
 
 Example:  ```<link href='https://fonts.googleapis.com/css?family=firstword+secondword' rel='stylesheet'>```
 
