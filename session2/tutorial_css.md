@@ -86,5 +86,8 @@ The second chunk of code should cause your button to change color when your mous
 
 Your screen should look something like this:![create a file](../assets/session2/sublime_view_3.png)
 
+**Step 5: Commit your updated repository to Github**
+Follow the steps outlined in the [Github Command Line](/session1/tutorial_githubcommandline.md) tutorial to commit your code to Github. 
+
 <br>
 

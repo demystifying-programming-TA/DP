@@ -67,6 +67,9 @@ The following snippet of code can help you get started with your webpage. Read t
 
 Ensure your server is up and running and refresh or relaunch index.html. You should now see content within the webpage.
 
+**Step 4: Commit your updated repository to Github**
+Follow the steps outlined in the [Github Command Line](/session1/tutorial_githubcommandline.md) tutorial to commit your code to Github. 
+
 **[Optional] Check out these tags that you can use to get a website up and going!**
 
 To build a drop down menu:
@@ -92,3 +95,5 @@ To add a hyperlink:
     This is a link 
 </a>
 ````
+
+<br>
