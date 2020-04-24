@@ -14,7 +14,7 @@ Open your  ```style.css``` folder by going into Sublime --> File --> Open. Go to
 You should have two tabs that look like this: ![create a file](../assets/session2/sublime_view.png)
 
 
-**Step 1: Link your CSS page to your HTML Page**
+**Step 1: Link your CSS page to your HTML page**
 
 Connect your CSS file with your ```index.html ``` page by using the following  ```href ``` tag  ```<link rel="stylesheet", type="text/css", href="style.css"> ``` in between your <head> </head> tags. If your html page is not in the same directory or subdirectory as your style.css file state the name of the directory within the href tag. (i.e.  ```href="Desktop/style.css" ``` ) 
 
@@ -29,6 +29,7 @@ body {
 }
 
 ````
+
 
 **Step 3: Choose a Font from Google Fonts for your website** 
 
@@ -47,6 +48,19 @@ body {
 ````
 Your screen should look something like this:![create a file](../assets/session2/css_sublime_view.png)
 
+**Step 4: Recenter your button** 
+
+
+Go back to your ```style.css ``` page and bold the text within your button by typing the following below your ```body {} tag.```
+
+
+````
+button {
+  font-weight: bold;
+}
+
+````
+Your screen should look something like this:![create a file](../assets/session2/css_sublime_view.png)
 
 <br>
 
