@@ -43,24 +43,47 @@ body {
   background-color: [INSERT HEXCODE]; 
   font-family: [Insert Chosen Font Name];
   font-size: [Insert Number]px; 
+  text-align: center;
 }
 
 ````
 Your screen should look something like this:![create a file](../assets/session2/css_sublime_view.png)
 
-**Step 4: Recenter your button** 
+**Step 4: Recenter & Add a Hover Function to your button** 
 
+Create a class around the button named "graph-button". This will allow us to create functionality special to that particular button. To do this edit between the ```<button> </button>``` tags in your ```index.html``` file so that it now looks like this: 
 
-Go back to your ```style.css ``` page and bold the text within your button by typing the following below your ```body {} tag.```
+````
+    <div> 
+   		<button> <div class = "graph-button"> <a href="#" class="button">See the number of infections and deaths in my area</a> 
+   		</button>
+    </div>
+
+````
+Then navigate back to your ```style.css``` folder and add two more curly bracket blocks with the following code: 
 
 
 ````
 button {
-  font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-weight: 100; 
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.graph-button:hover{
+	background: orange;
+	color: white;
+	text-align: center;
 }
 
 ````
-Your screen should look something like this:![create a file](../assets/session2/css_sublime_view.png)
 
+The second chunk of code should cause your button to change color when your mouse hovers over your button. You'll also notice that we did not use hexcodes - this is because there are "css family colors" that don't require hexcodes -- they are a limited set of standard colors available by name. Change the background, colors and fonts as you wish! Experiment away :) 
+
+**Step 5: Commit your HTML and CSS Folder to Git** 
 <br>
 
