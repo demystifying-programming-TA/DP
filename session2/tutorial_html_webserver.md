@@ -1,5 +1,7 @@
 # Static Frontend Development - Part I 
 
+*Session 2 Mini-Tutorial*
+
 #### HTML + Web Server
 
 In this exercise, we will set up a simple HTML page and then run it on a local web server.

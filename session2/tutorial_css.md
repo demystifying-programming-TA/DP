@@ -1,5 +1,7 @@
 # Static Frontend Development - Part II 
 
+*Session 2 Mini-Tutorial*
+
 #### CSS
 
 *Session 2 Mini-Tutorial*

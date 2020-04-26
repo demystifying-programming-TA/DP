@@ -3,10 +3,14 @@
 &nbsp;&nbsp;&nbsp;<a href="#/?id=demystifying-programming-dp"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="#/session3/session3"><span class="fa-stack"><strong class="fa-stack-xs">Session&nbsp;3</strong></span></a><hr>
 
 * Setup Guides  
-* ##### *Coming Soon*
+* [Python Packages](/session3/setup_pythonpackages.md)
+* [Python Command Shell - iPython](/session3/setup_ipython.md)
 
 * Mini-Tutorials 
-* ##### *Coming Soon*
+* [Dynamic Frontend Development (Review)](/session2/tutorial_js_webdeveloper.md)
+* [Python - Part I](/session3/tutorial_python_partI.md)
+* [Python - Part II](/session3/tutorial_python_partII.md)
 
-* Other Resources
-* ##### *Coming Soon*
+* Other Resources  
+
+* [Supplementary Materials](/session3/supplementary_materials.md)

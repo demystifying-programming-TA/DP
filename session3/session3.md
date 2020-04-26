@@ -1,20 +1,21 @@
 # Session 3: Backend
 *May 1st (10:00 am - 1:00 pm EST)*
 
-> In this session you will... (* Subject to change)
+> In this session you will... 
 
 1) Understand the backend development workflow (text editor, command line, interactive shells)
 
-
-2) Continue building out your understanding of the fundamental building blocks of any programming language *(incl. (i) script structure and format (ii) modules (internal / external), (iii) classes/objects/attributes, (iv) data types (arrays, dictionaries...) (v) boolean operators/boolean indexes/conditional statements, (vi) dataframes, (vii) loops)*
+2) Encounter a number of additional building blocks that are common across programming languages 
 
 3) Become comfortable with Python, one of the most common backend languages
 
-
 > What materials should I look at ahead of class?
 
-- #### Setup Guides (* Coming Soon)
-	* Backend Language (Python Packages (incl. iPython))
+- #### Setup Guides 
+	* [Python Packages](/session3/setup_pythonpackages.md)
+	* [Python Command Shell - iPython](/session3/setup_ipython.md)
 
-- #### Mini-Tutorials (* Coming Soon)
-	* Python
+- #### Mini-Tutorials 
+	* [Dynamic Frontend Development (Review)](/session2/tutorial_js_webdeveloper.md)
+	* [Python - Part I](/session3/tutorial_python_partI.md)
+	* [Python - Part II](/session3/tutorial_python_partII.md)
