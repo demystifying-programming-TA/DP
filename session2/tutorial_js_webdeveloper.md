@@ -58,7 +58,7 @@ function InitializeGraph() {
     // Update the interface the user sees with their location
     document.getElementById("location").innerHTML = "Your location:<br> Latitude: " + user_latitude + "<br>Longitude: " + user_longitude;
 
-  }
+  })
 }
 ```
 
