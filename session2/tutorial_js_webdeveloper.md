@@ -63,7 +63,7 @@ function InitializeGraph() {
 ```
 
 
-**Step 3: Link your html button to the ```InitializeGraph``` function **
+**Step 3: Link your html button to the ```InitializeGraph``` function**
 
 Ensure that your ```InitializeGraph``` function is triggered when the button is pressed by inserting the an ```onclick``` property into your ```button``` tag. Your ```button``` tag should now look something like this : ```<button onclick="InitializeGraph()">See the number of infections and deaths in my area</button>```.
 
