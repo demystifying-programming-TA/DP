@@ -3,6 +3,9 @@
 
 **What resources should I look at if I want to learn more about the topics covered?**
 
+The concept of a localhost can be a little confusing. Here is a fun link that breaks it down further:
+* WhatIsMyIPAddress: https://whatismyipaddress.com/localhost
+
 Here are some additional tutorials you might want to look at if you want to learn more about the frontend libraries and frameworks that we mentioned briefly in class:
 * React (Frontend Library - Facebook): https://reactjs.org/tutorial/tutorial.html
 
