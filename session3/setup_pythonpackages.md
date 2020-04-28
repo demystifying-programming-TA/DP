@@ -52,7 +52,7 @@ geopy
 
 3) Execute the following command in the Terminal (after navigating to the folder in which you saved your 'requirements.txt' file): ```pip3 install -r requirements.txt```
 
-***(Optional) Upgrading a package***
+***(Optional) Upgrade a package***
 
 If you want to/need to upgrade a specific package you can use the following Terminal command: ```pip3 install [packagename] --upgrade```, e.g., ```pip3 install pandas --upgrade```. The command ```pip3 show [packagename]``` (e.g., ```pip3 show pandas```) in turn will show you which version you have installed. 
 
