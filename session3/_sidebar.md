@@ -6,6 +6,8 @@
 * [Python Packages](/session3/setup_pythonpackages.md)
 * [Python Command Shell - iPython](/session3/setup_ipython.md)
 
+
+
 * Mini-Tutorials 
 * [Dynamic Frontend Development (Review)](/session2/tutorial_js_webdeveloper.md)
 * [Python - Part I](/session3/tutorial_python_partI.md)
