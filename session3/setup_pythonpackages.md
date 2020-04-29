@@ -12,7 +12,7 @@ Simply enter the following command into your Terminal - ```pip3 install [package
 
 Replace ```[packagename]``` with the name of the package you are installing, e.g., ````pip3 install pandas```` *(Mac)* or ```pip install pandas``` *(Windows)* to install the ```pandas``` package. 
 
-To confirm that a package has been installed, launch Python (enter ```python3``` *(Mac)* or ```python``` *(Windows)* into the Terminal), and execute the following Python command ```import [packagename]```, e.g., ```import pandas```. If you don't receive a error message, that means you are all set.  
+To confirm that a package has been installed, launch Python (enter ```python3``` *(Mac)* or ```python``` *(Windows)* into Terminal/Windows Powershell), and execute the following Python command ```import [packagename]```, e.g., ```import pandas```. If you don't receive a error message, that means you are all set.  
 
 ***Install multiple packages at once***
 
@@ -52,7 +52,9 @@ geopy
 
 ***(Optional) Upgrade a package***
 
-If you want to/need to upgrade a specific package you can use the following Terminal command: ```pip3 install [packagename] --upgrade```, e.g., ```pip3 install pandas --upgrade```. The command ```pip3 show [packagename]``` (e.g., ```pip3 show pandas```) in turn will show you which version you have installed. *For Windows just remove the '3' in 'pip3'.*
+If you want to/need to upgrade a specific package you can use the following Terminal command: ```pip3 install [packagename] --upgrade```, e.g., ```pip3 install pandas --upgrade```. The command ```pip3 show [packagename]``` (e.g., ```pip3 show pandas```) in turn will show you which version you have installed. 
+
+*For Windows just remove the '3' in 'pip3'.*
 
 
 
