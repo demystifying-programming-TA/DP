@@ -4,17 +4,15 @@
 
 *This guide assumes that you have already installed/set-up [Python 3](/session2/setup_python.md)*
 
-**Mac**
-
-To install a Python package, you can use the ```pip``` (or ```pip3``` for Python 3) - a Python package manager. 
+To install a Python package, you can use the command ```pip3``` *(Mac)* or ```pip``` *(Windows)* - a Python package manager. 
 
 ***Install a single package***
 
-Simply enter the following command into your Terminal ```pip3 install [packagename]``` replacing ```[packagename]``` with the name of the package you are installing, e.g., ````pip3 install pandas```` to install the ```pandas``` package. 
+Simply enter the following command into your Terminal - ```pip3 install [packagename]``` *(Mac)* or ```pip install [packagename]``` *(Windows)*
 
-To confirm that a package has been installed, launch Python (enter ```python3``` into the Terminal), and execute the following Python command ```import [packagename]```, e.g., ```import pandas```. If you don't receive a error message, that means you are all set.  
+Replace ```[packagename]``` with the name of the package you are installing, e.g., ````pip3 install pandas```` *(Mac)* or ```pip install pandas``` *(Windows)* to install the ```pandas``` package. 
 
-
+To confirm that a package has been installed, launch Python (enter ```python3``` *(Mac)* or ```python``` *(Windows)* into the Terminal), and execute the following Python command ```import [packagename]```, e.g., ```import pandas```. If you don't receive a error message, that means you are all set.  
 
 ***Install multiple packages at once***
 
@@ -50,11 +48,11 @@ geopy
 *Note: We will be using pandas, numpy, flask and geopy in Session #3 and Session #4*
 
 
-3) Execute the following command in the Terminal (after navigating to the folder in which you saved your 'requirements.txt' file): ```pip3 install -r requirements.txt```
+3) Execute the following command in the Terminal (after navigating to the folder in which you saved your 'requirements.txt' file): ```pip3 install -r requirements.txt``` *(Mac)* or ```pip install -r requirements.txt``` *(Windows)*
 
 ***(Optional) Upgrade a package***
 
-If you want to/need to upgrade a specific package you can use the following Terminal command: ```pip3 install [packagename] --upgrade```, e.g., ```pip3 install pandas --upgrade```. The command ```pip3 show [packagename]``` (e.g., ```pip3 show pandas```) in turn will show you which version you have installed. 
+If you want to/need to upgrade a specific package you can use the following Terminal command: ```pip3 install [packagename] --upgrade```, e.g., ```pip3 install pandas --upgrade```. The command ```pip3 show [packagename]``` (e.g., ```pip3 show pandas```) in turn will show you which version you have installed. *For Windows just remove the '3' in 'pip3'.*
 
 
 
