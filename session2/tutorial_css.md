@@ -57,7 +57,7 @@ Create a class around the button named "graph-button". This will allow us to cre
 
 ````
     <div> 
-   		<button> <div class = "graph-button"> <a href="#" class="button">See the number of infections and deaths in my area</a> 
+   		<button> <div class = "graph-button"> <a href="#" class="button">See the % decrease in the number of driving and walking direction requests in my current region</a> 
    		</button>
     </div>
 

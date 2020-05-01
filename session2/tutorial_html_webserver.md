@@ -46,7 +46,7 @@ The following snippet of code can help you get started with your webpage. Read t
     <!-- Provide an overview of the website -->
     <br> <br> <br>
 
-    <p><h1>As of April 23rd, more than 2,616,000 people have been sickened by COVID-19 <br>and at least 181,000 people have died</h1></p>
+    <p><h1>Mobility has decreased across the globe as people shelter in place. <br>The change in the number of Apple Maps direction requests (Jan 13th - April 14th) illustrates this.</h1></p>
 
     <br> <br> <br>
     <hr>
@@ -55,7 +55,7 @@ The following snippet of code can help you get started with your webpage. Read t
     <!-- Let's insert a button to generate graph & placeholder for location & placeholder for graph -->
     <div>
       
-      <button>See the number of infections and deaths in my area</button>
+      <button>See the % decrease in the number of driving and walking direction requests in my current region</button>
 
     </div>
  

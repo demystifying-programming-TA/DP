@@ -65,18 +65,18 @@ function InitializeGraph() {
 
 **Step 3: Link your html button to the ```InitializeGraph``` function**
 
-Ensure that your ```InitializeGraph``` function is triggered when the button is pressed by inserting the an ```onclick``` property into your ```button``` tag. Your ```button``` tag should now look something like this : ```<button onclick="InitializeGraph()">See the number of infections and deaths in my area</button>```.
+Ensure that your ```InitializeGraph``` function is triggered when the button is pressed by inserting the an ```onclick``` property into your ```button``` tag. Your ```button``` tag should now look something like this : ```<button onclick="InitializeGraph()">See the % decrease in the number of driving and walking direction requests in my current region</button>```.
 
 **Step 4: Create an ```DrawGraph``` function that visualizes a given set of location-specific data**
 
 ```
 // DrawGraph
-function DrawGraph(country, infection, death) {
+function DrawGraph(country, walkingdecrease, drivingdecrease) {
 
   // Generate and format the data
   var data = google.visualization.arrayToDataTable([
-    ['Country', 'Infections', 'Deaths'],
-    [country, infection, death]
+    ['Country', 'WalkingDecrease', 'DrivingDecrease'],
+    [country, walkingdecrease, drivingdecrease]
   ]);
 
   // Customize the graph
@@ -84,7 +84,7 @@ function DrawGraph(country, infection, death) {
     colors: ['#b0120a', '#ffab91'],
     chartArea: {width: '50%'},
     hAxis: {
-      title: 'Number of infections and deaths'
+      title: '% decrease in the number of walking and driving direction requests'
     }
   };
 
@@ -95,17 +95,19 @@ function DrawGraph(country, infection, death) {
   chart.draw(data, options);
 
 }
+
+
 ```
 
 **Step 5: Link your two functions, substituting hard-coded data for an API call to the backend**
 
-Add in a call to your ```DrawGraph``` function at the end of your ```InitializeGraph``` function passing to the ```DrawGraph``` function a hard-coded set of values for the ```country```, ```infection```, and ```death``` parameters. We will build the backend that can generate these values based on the users' longitude and latitude in session #3. 
+Add in a call to your ```DrawGraph``` function at the end of your ```InitializeGraph``` function passing to the ```DrawGraph``` function a hard-coded set of values for the ```country```, ```walkingdecrease```, and ```drivingdecrease``` parameters. We will build the backend that can generate these values based on the users' longitude and latitude in session #3. 
 
 ```
 // Draw the graph
 // ** Note: Data is hard-coded > next step: Replace hard-coded data with an API call to the server, i.e., backend 
-// ** API call specification: Send to server: Longitude, latitude / Receive from server: Corresponding country, # of infections/deaths in that country
-DrawGraph("United States",852000, 43000);
+// ** API call specification: Send to server: Longitude, latitude / Receive from server: Corresponding country, decrease in walking direction requests, decrease in driving direction requests
+DrawGraph("United States",20,30);
 ```
 
 **Step 6: Save and exit the file and launch index.html again**

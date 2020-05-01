@@ -1,6 +1,9 @@
 # DP Project Resources
 
+## *Dataset used in class demos & tutorials*
+
 ## Database and API Search Providers
+https://data.world/kgarrett/covid-19-mobility-trends
 
 #### DataHub: 
 https://datahub.io/
