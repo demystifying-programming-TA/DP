@@ -2,7 +2,7 @@
 
 *Session 3 Mini-Tutorial*
 
-First, download the CoronaData.csv file from Github at the following link. You will use this for the next two tutorials. https://github.com/ZErdman/DPcoursework/tree/master/Mobility_data
+First, download the CoronaData.csv file from Canvas at the following link. You will use this for the next two tutorials. https://canvas.mit.edu/courses/3133/files/416509?module_item_id=80438
 
 **Step 1: Define a skeleton function (```location_mobility_data```) in your ```dataprocessing.py``` script**
 
