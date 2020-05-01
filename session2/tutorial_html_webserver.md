@@ -57,6 +57,14 @@ The following snippet of code can help you get started with your webpage. Read t
       
       <button>See the % decrease in the number of driving and walking direction requests in my current region</button>
 
+      <br><br>
+
+      <div id="location" style="text-align:center"> </div>
+
+      <br><br>
+
+      <div id="chart" style="text-align:center"> </div>
+
     </div>
  
   

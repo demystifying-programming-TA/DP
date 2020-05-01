@@ -30,7 +30,7 @@ def location_mobility_data(longitude, latitude):
 		encoding="utf-8")
 
 	# Reverse geocode (longitude, latitude > country)
-	country = "United States"
+	country = "United States of America"
 	# Extract data for country
 
 	# Extract data for walking & calculate change in # of walking calls
@@ -70,7 +70,7 @@ data = dp.location_mobility_data(longitude = -71.08328259999999,
 	latitude = 42.3662154)
 print("Country name: ", data[0])
 print("Decrease in # of walking calls (%): " + str(data[1]))
-print("Decrease in # of driving calls (%):" + str(data[2]))
+print("Decrease in # of driving calls (%): " + str(data[2]))
 
 # ------------------------------------------------------------------------ #
 # ------------------------------------------------------------------------ #

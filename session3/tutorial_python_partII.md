@@ -36,7 +36,7 @@ driving     =  mobility_location_df.loc[mobility_location_df["Transportation"] =
 
 Finally, using the ```walking``` and ```driving``` Dataframes which you generated in the previous step - how can you derive two variables (```walking_chg``` and ```driving_ch```) that represent the % change in the number of direction calls for each transport medium?
 
-> Potential solution (entire ```dataprocessing.py``` script)
+> Potential solution (relevant section of the ```dataprocessing.py``` script)
 
 ```
 def location_mobility_data(longitude, latitude):

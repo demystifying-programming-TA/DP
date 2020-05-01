@@ -107,7 +107,7 @@ Add in a call to your ```DrawGraph``` function at the end of your ```InitializeG
 // Draw the graph
 // ** Note: Data is hard-coded > next step: Replace hard-coded data with an API call to the server, i.e., backend 
 // ** API call specification: Send to server: Longitude, latitude / Receive from server: Corresponding country, decrease in walking direction requests, decrease in driving direction requests
-DrawGraph("United States",20,30);
+DrawGraph("United States of America",20,30);
 ```
 
 **Step 6: Save and exit the file and launch index.html again**
