@@ -2,7 +2,7 @@
 
 *Session 3 Mini-Tutorial*
 
-First, download the mobility_trends_edit.csv data set from Github at the following link. You will use this for the next two tutorials. https://github.com/ZErdman/DPcoursework/tree/master/Mobility_data
+First, download the CoronaData.csv file from Github at the following link. You will use this for the next two tutorials. https://github.com/ZErdman/DPcoursework/tree/master/Mobility_data
 
 **Step 1: Define a skeleton function (```location_mobility_data```) in your ```dataprocessing.py``` script**
 
