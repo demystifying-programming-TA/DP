@@ -2,35 +2,109 @@
 
 *Session 3 Mini-Tutorial*
 
-After completing Part I of the Python tutorial, you should have two python files: "Application.py" and "DataProcessing.py". 
+After completing the [Python - Part I tutorial](/session3/tutorial_python_partI.md), you should have two python files: ```application.py``` and ```dataprocessing.py```. 
 
-We will now initiate multiple country data requests from the Application.py script using a for loop.
+**Step 1: Use Boolean operators to extract relevant information from the dataset**
 
-Your code for the "Application.py" script should look like the following:
+As we discussed in Part I, we need to (i) extract the rows from the dataset that correspond to the country our user is in and (ii) extract the row that refers to the walking requests and row that refers to the driving requests. 
+
+*1) Extracting the rows that correspond to a given country*  
+
+We've discussed previously that you can subset a Pandas Dataframe by column or row (e.g., ```data["columnname"]``` or ```data.iloc[3]```). If you want to subset a Dataframe based on a boolean expression, i.e., filter based on whether or not a row is equal to certain value you can use the following syntax: ```data.loc[data[columnname]==specifiedvalue]```. Given this how could you generate a new Dataframe that contains only the rows where the ```region``` column is equal to ```country```, i.e., the country identifed by the geopy package?
+
+> Potential solution
 ```
-# Path
-# ---------------------------------------------#
-import os, sys
-app_root = os.path.normpath(os.path.dirname(os.path.abspath(__file__)))   
+mobility_location_df = mobility_df.loc[mobility_df["Region"]==country]
+```
 
-# Load internal dependencies
+> Hint
+
+Always start by identifying the boolean expression, i.e., what is the true/false check that you want to run on each row? To get a better intuition it may help to run the following command ```print(mobility_df["Region"]==country)``` - does that help you understand the solution?
+
+*2) Extracting the rows that correspond to driving/walking requests*  
+
+Applying a similar logic as you did above, how could you create two new Dataframes - one containing the walking requests for the chosen country, the other one containing the driving requests for the chosen country?
+
+> Potential solution
+
+```
+walking     =  mobility_location_df.loc[mobility_location_df["Transportation"] == "walking"]
+driving     =  mobility_location_df.loc[mobility_location_df["Transportation"] == "driving"]
+```
+
+*2) Calculating the % change in requests between January 13th and April 14th*
+
+Finally, using the ```walking``` and ```driving``` Dataframes which you generated in the previous step - how can you derive two variables (```walking_chg``` and ```driving_ch```) that represent the % change in the number of direction calls for each transport medium?
+
+> Potential solution (entire ```dataprocessing.py``` script)
+
+```
+def location_mobility_data(longitude, latitude):
+
+	# Load the data
+	mobility_df = pd.read_csv("backend/data/CoronaData.csv", encoding="utf-8")
+
+	# Geocode the longitude/latitude data if not provided with country
+
+	## Initialize the geocoder
+	locator      = gp.geocoders.Nominatim(user_agent="myGeocoder")
+
+	## Reverse geocode (longitude, latitude > country)
+	coordinates  = str(latitude) + ", " + str(longitude)
+	geocode_data = locator.reverse(coordinates)
+	country      = geocode_data.raw['address']['country']
+
+	## Extract data for country
+	mobility_location_df = mobility_df[mobility_df["Region"]==country]
+
+	## Extract data for walking & calculate change in # of walking calls
+	walking     =  mobility_location_df[mobility_location_df["Transportation"] == "walking"]
+	walking_chg = 1 - walking["Requests_4/14/2020"]/walking["Requests_1/13/2020"]
+	walking_chg = int(walking_chg*100)
+	
+	## Extract data for driving & calculate change in # of driving calls
+	driving     =  mobility_location_df[mobility_location_df["Transportation"] == "driving"]
+	driving_chg = 1 - driving["Requests_4/14/2020"]/driving["Requests_1/13/2020"]
+	driving_chg = int(driving_chg*100)
+
+	# Return the results
+	return([country, walking_chg, driving_chg])
+
+```
+
+<hr>
+
+**Step 2: Implement a 'for' loop**
+
+We will now initiate multiple country data requests from the ```application.py``` script using a 'for' loop.
+
+Your code for the ```application.py``` script should look like the following:
+```
+# ------------------------------------------------------------------------ #
+# Initialization
+# ------------------------------------------------------------------------ #
+
+# Load dependencies
 # ---------------------------------------------#
-sys.path.append(os.path.normpath(os.path.join(app_root,'Backend')))
-from DataProcessing import *
+import sys
+sys.path.append('Backend')
+import dataprocessing as dp
 
 # ------------------------------------------------------------------------ #
 # Test Functions
-# ------------------------------------------------------------------------ #
+# ------------------------------------------------------------------------ 
 
-# update_owncountry
-# ---------------------------------------------#
-data = location_mobility_data(longitude = -71.08328259999999, latitude = 42.3662154)
-print("Country name:", data[0])
-print("% decrease in walking:",data[1])
-print("% decrease in driving:",data[2])
+## Try the location_mobility_data() function
+## Note: Longitude,latitude refer to the United States
+data = dp.location_mobility_data(longitude = -71.08328259999999, 
+	latitude = 42.3662154)
+print("Country name: ", data[0])
+print("Decrease in # of walking calls (%): " + str(data[1]))
+print("Decrease in # of driving calls (%):" + str(data[2]))
+
 ```
 
-Let's go to the #update_owncountry section. This is where data is being collected by calling the "location_mobility_data" function and is where we would like the loop to occur. 
+Let's go to the '#Test Functions' section. This is where data is being collected by calling the "location_mobility_data" function and is where we would like the loop to occur. 
 
 Start a 'for' loop around the function using the proper 'for' notation. Since the 'location_mobility_data' function input takes two coordinate values, we will need each list element to cotain two numbers. For example:
 
@@ -45,11 +119,32 @@ lat = i[1]
 ```
 Now we can plug it into our function the same way we did before except we replace the numbers with these variables:
 
-```data = location_mobility_data(longitude = long, latitude = lat)```
+```data = dp.location_mobility_data(longitude = long, latitude = lat)```
 
 Now put your print statements into the loop and make sure the are properly indented in order to be executed with each run of the loop.
 
 Save and execute your code from the terminal!
 
-Extra:
+> Optional extension
+
 See what happens if you enter coordinates that don't correspond to a country eg. the ocean. Can you think of a way to fix this? One approach is the "try:-except:" block. It operates like an if statement, but instead if the code under the "try:" block reaches an error, the interpreter moves to the "except:" block and executes there. This is a useful way to give error statements and prevent the script from stopping entirely.
+
+> Potential solution
+
+By the end of this tutorial your '#Test Functions' section could look something like this: 
+
+```
+## Note: Try with US, Germany, UK
+for i in [[-71.08328259999999, 42.3662154],[10.48328259999999, 51.3662154],[-1.78328259999999, 52.4662154]]:
+	try:
+		long = i[0]
+		lat  = i[1]
+		data = dp.location_mobility_data(longitude = long, latitude = lat)
+		print("Country name: ", data[0])
+		print("Decrease in # of walking calls (%): " + str(data[1]))
+		print("Decrease in # of driving calls (%):" + str(data[2]))
+		
+	except:
+		print("Country not found.")
+```
+
