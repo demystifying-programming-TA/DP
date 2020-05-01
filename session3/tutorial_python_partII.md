@@ -32,7 +32,7 @@ walking     =  mobility_location_df.loc[mobility_location_df["Transportation"] =
 driving     =  mobility_location_df.loc[mobility_location_df["Transportation"] == "driving"]
 ```
 
-*2) Calculating the % change in requests between January 13th and April 14th*
+*3) Calculating the % change in requests between January 13th and April 14th*
 
 Finally, using the ```walking``` and ```driving``` Dataframes which you generated in the previous step - how can you derive two variables (```walking_chg``` and ```driving_ch```) that represent the % change in the number of direction calls for each transport medium?
 
@@ -112,7 +112,7 @@ Start a 'for' loop around the function using the proper 'for' notation. Since th
 
 If we have two sets of coordinates, the function will run two times and so on. Pick 3 different sets of coordinates that correspond to three countries. Use google maps to identify these.
 
-All the code within the loop should be indented with either a tab or 3 spaces. To exit the loop, simply go back to no identations. During the loop, the first set of values stored in 'i' will be [a,b]. Take this data from the i variable and store it in new separate variables so we can place it into our our function:
+All the code within the loop should be indented with either a tab or 3 spaces. To exit the loop, simply go back to no indentations. During the loop, the first set of values stored in 'i' will be [a,b]. Take this data from the i variable and store it in new separate variables so we can place it into our our function:
 ```
 long = i[0]
 lat = i[1]
