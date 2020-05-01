@@ -44,6 +44,7 @@ long = i[0]
 lat = i[1]
 ```
 Now we can plug it into our function the same way we did before except we replace the numbers with these variables:
+
 ```data = location_mobility_data(longitude = long, latitude = lat)```
 
 Now put your print statements back into the loop and make sure the are properly indented in order to be executed with each run of the loop.
