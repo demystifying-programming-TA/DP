@@ -4,6 +4,8 @@
 
 First, download the CoronaData.csv file from Canvas at the following link. You will use this for the next two tutorials. https://canvas.mit.edu/courses/3133/files/416511?module_item_id=80439
 
+Make two blank scripts ```application.py``` and ```dataprocessing.py```. We will use dataprocessing.py to process the data and to application.py execute the data processing.
+
 **Step 1: Define a skeleton function (```location_mobility_data```) in your ```dataprocessing.py``` script**
 
 > Hint
