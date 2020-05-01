@@ -57,6 +57,3 @@ geopy
 If you want to/need to upgrade a specific package you can use the following Terminal command: ```pip3 install [packagename] --upgrade```, e.g., ```pip3 install pandas --upgrade```. The command ```pip3 show [packagename]``` (e.g., ```pip3 show pandas```) in turn will show you which version you have installed. 
 
 
-
-
-
