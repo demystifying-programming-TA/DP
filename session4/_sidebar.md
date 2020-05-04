@@ -9,7 +9,7 @@
 
 
 * Mini-Tutorials 
-* [Python (Review)](/session3/python_partII.md)
+* [Python (Review)](/session3/tutorial_python_partII.md)
 * [Flask](/session4/tutorial_flask.md)
 * [AWS](/session4/tutorial_aws.md)
 
