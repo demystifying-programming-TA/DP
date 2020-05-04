@@ -5,6 +5,7 @@
 * Setup Guides  
 * [Python Packages](/session3/setup_pythonpackages.md)
 * [Python Command Shell - iPython](/session3/setup_ipython.md)
+* [Python Packages - Geopy](/session3/setup_geopy.md)
 
 
 
