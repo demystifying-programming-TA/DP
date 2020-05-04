@@ -2,6 +2,7 @@
 
 &nbsp;&nbsp;&nbsp;<a href="#/?id=demystifying-programming-dp"><i class="fas fa-home"></i></a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="#/session3/session3"><span class="fa-stack"><strong class="fa-stack-xs">Session&nbsp;3</strong></span></a><hr>
 
+
 * Setup Guides  
 * [Python Packages](/session3/setup_pythonpackages.md)
 * [Python Command Shell - iPython](/session3/setup_ipython.md)
