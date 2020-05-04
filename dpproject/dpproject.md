@@ -15,7 +15,7 @@ The website needs to meet the following criteria:
 
 > What is the deadline?
 
-Final project submissions will be due on Sunday, May 10th. All submitted projects that meet the above criteria will be included in an end-of-semester student showcase (date and formatted to be announced). 
+Final project submissions (link to Github repository) will be due EOD on Sunday, May 10th. All submitted projects that meet the above criteria will be included in an end-of-semester student showcase (date and formatted to be announced). 
 
 > What resources are available to help me get started?
 
