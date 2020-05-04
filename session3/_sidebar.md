@@ -4,13 +4,15 @@
 
 
 * Setup Guides  
+  
 * [Python Packages](/session3/setup_pythonpackages.md)
 * [Python Command Shell - iPython](/session3/setup_ipython.md)
 * [Python Packages - Geopy](/session3/setup_geopy.md)
 
 
 
-* Mini-Tutorials 
+* Mini-Tutorials   
+
 * [Dynamic Frontend Development (Review)](/session2/tutorial_js_webdeveloper.md)
 * [Python - Part I](/session3/tutorial_python_partI.md)
 * [Python - Part II](/session3/tutorial_python_partII.md)
