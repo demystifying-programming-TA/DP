@@ -12,11 +12,11 @@
 > What materials should I look at ahead of class?
 
 - #### Setup Guides
-	* [Web Framework (Flask)]((/session4/setup_flask.md))
-	* [(Optional) Hosting Service (AWS Elastic Beanstalk)]((/session4/setup_aws.md))
+	* [Web Framework (Flask)](/session4/setup_flask.md)
+	* [(Optional) Hosting Service (AWS Elastic Beanstalk)](/session4/setup_aws.md)
 
 - #### Mini-Tutorials 
-	* [Flask]((/session4/tutorial_flask.md))
-	* [(Optional) AWS]((/session4/tutorial_aws.md))
+	* [Flask](/session4/tutorial_flask.md)
+	* [(Optional) AWS](/session4/tutorial_aws.md)
 
 
