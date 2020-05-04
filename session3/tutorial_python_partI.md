@@ -2,7 +2,7 @@
 
 *Session 3 Mini-Tutorial*
 
-First, download the CoronaData.csv file from Canvas at the following link. You will use this for the next two tutorials. https://canvas.mit.edu/courses/3133/files/416511?module_item_id=80439
+First, download the CoronaData.csv file from Canvas at the [following link](https://canvas.mit.edu/courses/3133/files/416511?module_item_id=80439). You will use this for the next two tutorials. 
 
 Make two blank scripts ```application.py``` and ```dataprocessing.py```. We will use dataprocessing.py to process the data and to application.py execute the data processing.
 
