@@ -6,9 +6,11 @@ First, download the CoronaData.csv file from Canvas at the [following link](http
 
 Make two blank scripts ```application.py``` and ```dataprocessing.py```.
 
-We will use ```dataprocessing.py``` to process the data and to ```application.py``` execute the data processing. Place your ```application.py``` file in the same directory as your backend and frontend folders and place your ```dataprocessing.py``` file in your backend directory.
+We will use ```dataprocessing.py``` to process the data and ```application.py``` to execute the data processing. Place your ```application.py``` file in the same directory as your backend and frontend folders and place your ```dataprocessing.py``` file in your backend directory.
 
 By the end of this tutorial we will have these scripts working with just part of the complete functionality.
+
+<hr>
 
 ## Building dataprocessing.py
 
@@ -21,7 +23,7 @@ import pandas as pd
 import geopy as gp
 ```
 
-**Step 2: Think about using a function and its inputs and outputs**
+**Step 2: Creating a function**
 
 We want to use ```dataprocessing.py``` to do the heavy lifting for our other script ```application.py```. To do this, we can create a function in ```dataprocessing.py``` that takes as input the longitude and latitude of a user, and outputs (i) their country, (ii) the % change in walking direction calls (%) and (iii) the % change in driving direction calls.
 
@@ -156,9 +158,12 @@ Country name:  United States of America
 Decrease in # of walking calls (%): 20
 Decrease in # of driving calls (%): 30
 ```
-Okay, let's add one more functionality before we call it quits.
+
+<hr>
 
 ## Adding reverse geocoding to application.py
+
+Okay, let's add one more functionality before we call it quits: reverse geocoding the country name from coordinates.
 
 **Step 1: Define your dependencies**
 
@@ -169,7 +174,7 @@ import geopy as gp
 
 **Step 2: Initiate the Nominatim method and use to reverse geolocate**
 
-Next, we want to pull Nominatim method of geolocation from geopy and save it to an object.
+Next, we want to pull Nominatim method of geolocation from geopy and store it in an object.
 ```
 locator = gp.geocoders.Nominatim(user_agent="myGeocoder")
 ```
