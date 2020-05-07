@@ -13,6 +13,7 @@ By the end of this tutorial we will have these scripts working with just part of
 ## Building dataprocessing.py
 
 **Step 1: Define your dependencies**
+
 We will be using Pandas and Geopy in this script. Import these by typing the following:
 
 ```
@@ -20,7 +21,8 @@ import pandas as pd
 import geopy as gp
 ```
 
-**Step 2: Think about using a function and its inputs and outputs**   
+**Step 2: Think about using a function and its inputs and outputs**
+
 We want to use ```dataprocessing.py``` to do the heavy lifting for our other script ```application.py```. To do this, we can create a function in ```dataprocessing.py``` that takes as input the longitude and latitude of a user, and outputs (i) their country, (ii) the % change in walking direction calls (%) and (iii) the % change in driving direction calls.
 
 We can start by defining the function as ```location_mobility_data``` and labeling our inputs:
@@ -29,6 +31,7 @@ def location_mobility_data(longitude, latitude):
 ```
 
 **Step 3: Identify the steps that will need to take place within your function**   
+
 The function will need to (i) import the dataset, (ii) reverse geocode the longitude and latitude to obtain the country, (iii) extract the data for the specific country from the dataset, (iv) extract the driving and walking direction call data, calculating the % change in each.
 
 For now, let's only do part (i) and then just manually enter in placeholder numbers for the rest. We will add these functionalities later.
@@ -39,13 +42,13 @@ mobility_df = pd.read_csv("backend/data/CoronaData.csv", encoding="utf-8")
 ```
 For the placeholder numbers we will need the following three variables:
 ```
-#1 Reverse geocode (longitude, latitude > country)
+# Reverse geocode (longitude, latitude > country)
 country = "United States of America"
 
-#2 Extract data for walking & calculate change in # of walking calls
+# Extract data for walking & calculate change in # of walking calls
 walking_chg = 20
 
-#3 Extract data for driving & calculate change in # of driving calls
+# Extract data for driving & calculate change in # of driving calls
 driving_chg = 30
 ```
 Lastly, we want to determine which outputs will be sent whenever the function is called. We can do this using the ```return()``` command at the end of our function. Whatever is contained within these parenthesis will be returned when the function is called. In this case we want to send the country name and the change in walking and driving, so our function could look like this:
@@ -99,6 +102,7 @@ That's good enough for now to test with. Let's work on ```application.py```.
 ## Building application.py
 
 **Step 1: Define your dependencies**
+
 Note that we want to import ```dataprocessing.py``` in order to use its function in this script. However, we need to make sure that Python can find this script. To do this, we will use the ```sys``` module to define the path to ```dataprocessing.py``` using the ```sys.path.append()``` function so that python can find it. See below:
 ```
 import sys
@@ -106,6 +110,7 @@ sys.path.append('Backend')
 import dataprocessing as dp
 ```
 **Step 2: Call the function**
+
 To call a function, we write the *parent modules local name*, a ".", and then the *name of the function with parenthesis*. Like so: ```dp.location_mobility_data()``` To save the output of this function we can simply assign it to a variable, named for example ```data```. We know from our earlier work on ```dataprocessing.py``` that the output of the function will be ```[country, walking_chg, driving_chg]``` so we can also write some statements to display this information. We can pull individual parts of the output by indexing on the assigned variable knowing that the 0 index will refer to the first element of the output. So to get the country name, we would write ```data[0]``` if we had assigned it to ```data```.
 
 Thus our code to call the function and print the relevant data could look like:
@@ -156,10 +161,14 @@ Okay, let's add one more functionality before we call it quits.
 ## Adding reverse geocoding to application.py
 
 **Step 1: Define your dependencies**
+
 To do reverse geocoding, we will need the geopy module. Import it by adding the following to your ```application.py``` file:
 ```
 import geopy as gp
 ```
+
+**Step 2: Initiate the Nominatim method and use to reverse geolocate**
+
 Next, we want to pull Nominatim method of geolocation from geopy and save it to an object.
 ```
 locator = gp.geocoders.Nominatim(user_agent="myGeocoder")
