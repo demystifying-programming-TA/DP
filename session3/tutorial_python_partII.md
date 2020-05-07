@@ -40,7 +40,7 @@ driving     =  mobility_location_df.loc[mobility_location_df["Transportation"] =
 
 Finally, using the ```walking``` and ```driving``` Dataframes which you generated in the previous step - how can you derive two variables (```walking_chg``` and ```driving_ch```) that represent the % change in the number of direction calls for each transport medium?
 
-#### Potential final result for the ```dataprocessing.py``` script:
+#### Example result for the ```dataprocessing.py``` script:
 
 ```
 def location_mobility_data(longitude, latitude):
@@ -139,11 +139,11 @@ Now put your print statements into the loop and make sure the are properly inden
 
 Save and execute your code from the terminal!
 
-> Optional extension
+*3) Optional extension*
 
 See what happens if you enter coordinates that don't correspond to a country eg. the ocean. Can you think of a way to fix this? One approach is the "try:-except:" block. It operates like an if statement, but instead if the code under the "try:" block reaches an error, the interpreter moves to the "except:" block and executes there. This is a useful way to give error statements and prevent the script from stopping entirely.
 
-#### Potential final result for the ```application.py``` script:
+#### Example result for the ```application.py``` script:
 
 ```
 # ------------------------------------------------------------------------ #
