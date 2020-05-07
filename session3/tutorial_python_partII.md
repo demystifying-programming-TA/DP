@@ -6,6 +6,8 @@ After completing the [Python - Part I tutorial](/session3/tutorial_python_partI.
 
 Let's now add the ability to pull the correct data from our csv and return it with the function in ```dataprocessing.py```
 
+<hr>
+
 ## Adding data extraction to ```dataprocessing.py```
 
 **Use Boolean operators to extract relevant information from the dataset**
