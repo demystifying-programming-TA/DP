@@ -39,15 +39,13 @@ mobility_df = pd.read_csv("backend/data/CoronaData.csv", encoding="utf-8")
 ```
 For the placeholder numbers we will need the following three variables:
 ```
-# Reverse geocode (longitude, latitude > country)
+#1 Reverse geocode (longitude, latitude > country)
 country = "United States of America"
 
-# Extract data for country
-
-# Extract data for walking & calculate change in # of walking calls
+#2 Extract data for walking & calculate change in # of walking calls
 walking_chg = 20
 
-# Extract data for driving & calculate change in # of driving calls
+#3 Extract data for driving & calculate change in # of driving calls
 driving_chg = 30
 ```
 Lastly, we want to determine which outputs will be sent whenever the function is called. We can do this using the ```return()``` command at the end of our function. Whatever is contained within these parenthesis will be returned when the function is called. In this case we want to send the country name and the change in walking and driving, so our function could look like this:
