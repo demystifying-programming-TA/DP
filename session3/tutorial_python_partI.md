@@ -59,7 +59,7 @@ Lastly, we want to determine which outputs will be sent whenever the function is
 return([country, walking_chg, driving_chg])
 ```
 
-Okay! Now your ```dataprocessing.py``` script should look like the following:
+#### Okay! Now your ```dataprocessing.py``` script should look like the following:
 
 ```
 # ------------------------------------------------------------------------ #
@@ -111,9 +111,13 @@ import sys
 sys.path.append('Backend')
 import dataprocessing as dp
 ```
-**Step 2: Call the function**
+**Step 2: Call the function and print relevant results**
 
-To call a function, we write the *parent modules local name*, a ".", and then the *name of the function with parenthesis*. Like so: ```dp.location_mobility_data()``` To save the output of this function we can simply assign it to a variable, named for example ```data```. We know from our earlier work on ```dataprocessing.py``` that the output of the function will be ```[country, walking_chg, driving_chg]``` so we can also write some statements to display this information. We can pull individual parts of the output by indexing on the assigned variable knowing that the 0 index will refer to the first element of the output. So to get the country name, we would write ```data[0]``` if we had assigned it to ```data```.
+To call a function, we write the *parent module's local name*, a ".", and then the *name of the function with parenthesis*. Like so: ```dp.location_mobility_data()```
+
+To save the output of this function we can  assign it to a variable, named for example ```data```. We know from our earlier work on ```dataprocessing.py``` that the output of the function will be ```[country, walking_chg, driving_chg]``` so we can also write some statements to display this information.
+
+We can pull individual parts of the output by indexing on the assigned variable knowing that the 0 index will refer to the first element of the output. So to get the country name, we would write ```data[0]``` if we had assigned it to ```data```.
 
 Thus our code to call the function and print the relevant data could look like:
 ```
@@ -123,7 +127,7 @@ print("Country name: ", data[0])
 print("Decrease in # of walking calls (%): " + str(data[1]))
 print("Decrease in # of driving calls (%): " + str(data[2]))
 ```
-At this point your script should look something like this:
+#### At this point your script should look something like this:
 ```
 # ------------------------------------------------------------------------ #
 # Initialization
@@ -201,7 +205,7 @@ The added code could look like this:
 	country      = geocode_data.raw['address']['country']   
 ```
 
-And your ```dataprocessing.py``` script in total could look like this:
+#### Now your ```dataprocessing.py``` script in total could look like this:
 ```
 # ------------------------------------------------------------------------ #
 # Initialization
