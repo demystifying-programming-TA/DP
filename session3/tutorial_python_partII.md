@@ -6,7 +6,7 @@ After completing the [Python - Part I tutorial](/session3/tutorial_python_partI.
 
 Let's now add the ability to pull the correct data from our csv and return it with the function in ```dataprocessing.py```
 
-## Adding data extraction to dataprocessing.py
+## Adding data extraction to ```dataprocessing.py```
 
 **Use Boolean operators to extract relevant information from the dataset**
 
@@ -78,9 +78,7 @@ def location_mobility_data(longitude, latitude):
 
 <hr>
 
-## Adding a 'for' loop to application.py
-
-**Use a 'for' loop to call information for multiple countries at one time**
+## Adding a 'for' loop to ```application.py```
 
 We will now initiate multiple country data requests from the ```application.py``` script using a 'for' loop.
 
