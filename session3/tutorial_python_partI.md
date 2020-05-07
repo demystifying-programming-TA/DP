@@ -236,7 +236,10 @@ def location_mobility_data(longitude, latitude):
 	return([country, walking_chg, driving_chg])
 ```
 
-Give it a try by running your ```application.py``` script again in the terminal! What happens if you change the function input coordinates in ```application.py``` to longitude = 10.45, latitude = 51.16? Why?
+Give it a try by running your ```application.py``` script again in the terminal!
+
+What happens if you change the function input coordinates in ```application.py``` to longitude = 10.45, latitude = 51.16? Why?
+
 > Trouble understanding what's going on?
 
 * **Leverage your 'what to do when stuck skills?' to work out how the geopy package works**  
