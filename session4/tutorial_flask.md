@@ -82,7 +82,7 @@ Launching your Flask app is simple:
 1. Enter the following command into your Terminal to execute your ```application.py``` script: ```python3 application.py``` (```python application.py``` on windows)
 
 
-2. Open http://127.0.0.1:5000/home in your browser (http://localhost:5000/ for windows)
+2. Open http://127.0.0.1:5000/home in your browser (http://localhost:5000/home for windows)
 
 
 <hr>
