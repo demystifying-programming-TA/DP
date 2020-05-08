@@ -119,7 +119,7 @@ $.getJSON("/update_country", {longitude: user_longitude, latitude:user_latitude}
 ```
 
 
-**Step 4b: Respond to request (Backend - ```application.py```)**
+***Step 4 (b): Respond to request (Backend - ```application.py```)***
 
 To complete our frontend-backend integration we will need to ensure that our backend is set-up to respond to the request we are placing from the frontend. 
 
