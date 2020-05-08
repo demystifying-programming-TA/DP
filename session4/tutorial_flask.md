@@ -2,7 +2,7 @@
 
 *Session 4 Mini-Tutorial*
 
-**This guide assumes that you have completed all tutorials in session 1-4 aswell as the [Flask Setup Guide](/session4/setup_flask.md)**
+**This guide assumes that you have completed all tutorials in session 1-3 as well as the [Flask Setup Guide](/session4/setup_flask.md)**
 
 
 **Step 1: Initialize and launch your Flask App**
