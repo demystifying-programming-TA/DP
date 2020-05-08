@@ -151,6 +151,10 @@ def update_country_view():
 
 ```
 
+```
+Note: Your assignment is to build your own location aware data processing module (modify dataprocessing.py accordingly) and show your individual unique processed data as responses on your website.
+We have given you the bare bones skeleton of your website. We encourage you to modify portions to show your creativity.
+```
 
 
 
