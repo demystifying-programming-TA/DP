@@ -106,7 +106,8 @@ In this tutorial, we will replace these hard-coded placeholder values with actua
 
 In our call to the backend (from the frontend), we will need to send the latitude and longitude as input data, which will then be processed in the backend, and some output data (country, walking decrease and driving decrease) will be returned.
 
-#### *This is what the middle of your ```function.js``` script needs to add in place of ``` DrawGraph("United States of America",20,30);``` to send input data to the backend (with flask) to process *
+#### *This is what the middle of your ```function.js``` script needs to add in place of ```DrawGraph("United States of America",20,30);``` to send input data to the backend (with flask) to process*
+
 ``` 
 // Make API call to backend & draw graph
 $.getJSON("/update_country", {longitude: user_longitude, latitude:user_latitude}, 
