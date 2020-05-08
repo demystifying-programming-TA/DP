@@ -6,7 +6,7 @@
 
 1) Understand how to establish a link between the frontend and the backend, i.e., between client (frontend) and server (backend) using a web framework (Flask)
 
-2) Learn how to deploy code to the cloud (AWS Elastic Beanstalk) 
+2) (Optional) Learn how to deploy code to the cloud (AWS Elastic Beanstalk) 
 
 
 > What materials should I look at ahead of class?

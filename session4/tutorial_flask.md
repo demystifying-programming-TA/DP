@@ -87,9 +87,48 @@ Launching your Flask app is simple:
 **Step 4: Requests/Response**
 
 
-```
-# application.py
+***Step 4 (a): Make request (Frontend - ```function.js```)***
 
+In session 3 we hard-coded the data (country, decrease in the # of walking requests for that country, and decrease in the number of driving requests for that country) that we passed to our ```DrawGraph``` function - at the end of the session your ```function.js``` script should have contained a section like the one below at the end of your ```InitializeGraph``` function:
+
+```
+// Draw the graph
+// ** Note: Data is hard-coded > next step: Replace hard-coded data with an API call to the server, i.e., backend 
+// ** API call specification: Send to server: Longitude, latitude / Receive from server: Corresponding country, decrease in walking direction requests, decrease in driving direction requests
+DrawGraph("United States of America",20,30);
+```
+
+In this tutorial, we will replace these hard-coded placeholder values with actual values from our dataset. To do that, we will need to make a call to our backend. 
+
+[@Aparna: Explanation to be added]
+
+#### *This is what the middle of your ```application.py``` script (i.e., the section after your ```home _view``` definition) may look like now:*
+``` 
+// Make API call to backend & draw graph
+$.getJSON("/update_country", {longitude: user_longitude, latitude:user_latitude}, 
+  function (data, status) {
+
+    // Inspect the data returned from the API
+    console.log(data)
+
+    // Draw graph
+    DrawGraph(data.Country,data.WalkingDecrease, data.DrivingDecrease);
+  }
+)
+
+```
+
+
+**Step 4b: Respond to request (Backend - ```application.py```)**
+
+To complete our frontend-backend integration we will need to ensure that our backend is set-up to respond to the request we are placing from the frontend. 
+
+[@Aparna: Explanation to be added]
+
+
+#### *This is what the middle of your ```application.py``` script (i.e., the section after your ```home _view``` definition) may look like now:*
+
+```
 # update_country
 # ---------------------------------------------#
 @application.route('/update_country')
@@ -106,27 +145,7 @@ def update_country_view():
 	return flask.jsonify({"Country":location_data[0], "WalkingDecrease":location_data[1], 
 		"DrivingDecrease":location_data[2]})
 
-
 ```
-
-
-```
-// function.js
-  
-// Make API call to backend & draw graph
-$.getJSON("/update_country", {longitude: user_longitude, latitude:user_latitude}, 
-  function (data, status) {
-
-    // Inspect the data returned from the API
-    console.log(data)
-
-    // Draw graph
-    DrawGraph(data.Country,data.WalkingDecrease, data.DrivingDecrease);
-  }
-)
-
-```
-
 
 
 
