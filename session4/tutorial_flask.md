@@ -69,7 +69,7 @@ def home_view():
 One last thing we need to do before we can test our application is to update the paths in our ```index.html``` file that link to our ```style.css``` and ```function.js``` modules. Using the ```static_folder``` path that we defined in Step 1 while initializing our Flask application we can replace the links to our style-sheet and JS file (within our ```index.html``` script) with the following lines: 
 
 ```
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}"">
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <script src="{{ url_for('static', filename='function.js') }}"></script>
 ```
 
