@@ -245,7 +245,7 @@ def location_mobility_data(longitude, latitude):
 	return([country, walking_chg, driving_chg])
 ```
 
-Give it a try by running your ```application.py``` script again in the terminal!
+Test out the reverse gelocation by calling the function from ```dataprocessing.py``` by running your ```application.py``` script again in the terminal!
 
 What happens if you change the function input coordinates in ```application.py``` to longitude = 10.45, latitude = 51.16? Why?
 
