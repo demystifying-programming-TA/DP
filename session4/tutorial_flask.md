@@ -40,9 +40,14 @@ Once we have initialized our app at the top of our ```application.py``` script w
 <hr>
 
 **Step 2: Define your homepage view**
-```
-# application.py
 
+To make our app functional, we need to link our frontend (i.e., our ```index.html``` page) to our backend (i.e., our ```application.py``` script). Using flask, we can accomplish this by defining a view, i.e., a view essentially being a set of commands that tell our Flask application which HTML page to display when a user requests a given URL. 
+
+In our case, let's begin by creating a 'home view', i.e., a view that ensures that our Flask application displays our ```index.html``` page when a user navigates to ```https://[domain name]/home``` where ```[domain name]``` will be ```127.0.0.1:5000``` (mac) or ```localhost:5000``` (windows) for the time-being given that we are hosting the page locally. 
+
+The syntax for defining a view is best understood by taking a look at an example. The below code snippet (to be inserted into you ```application.py``` script after the for-loop created in Session 3) illustrates how you can construct a `home view` for your application. 
+
+```
 # ------------------------------------------------------------------------ #
 # Define views
 # ------------------------------------------------------------------------ #
@@ -57,20 +62,27 @@ def home_view():
 	
 ```
 
+One last thing we need to do before we can test our application is to update the paths in our ```index.html``` file that link to our ```style.css``` and ```function.js``` modules. Using the ```static_folder``` path that we defined in Step 1 while initializing our Flask application we can replace the links to our style-sheet and JS file (within our ```index.html``` script) with the following lines: 
+
 ```
-<!-- Index.html -->
-
-<!-- Dependencies -->
-
-<!-- Internal -->
-  <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}"">
-  <script src="{{ url_for('static', filename='function.js') }}"></script>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}"">
+<script src="{{ url_for('static', filename='function.js') }}"></script>
 ```
 
-**Step 3: Test application**
+<hr>
 
-1. ```python3 appliation.py``` (```python application.py``` on windows)
-2. Open http://127.0.0.1:5000/home in your browser (*http://localhost:5000/ for windows*)
+**Step 3: Test your application**
+
+Launching your Flask app is simple: 
+
+1. Enter the following command into your Terminal to execute your ```application.py``` script: ```python3 application.py``` (```python application.py``` on windows)
+
+
+2. Open http://127.0.0.1:5000/home in your browser (http://localhost:5000/ for windows)
+
+
+<hr>
+
 
 **Step 4: Requests/Response**
 
