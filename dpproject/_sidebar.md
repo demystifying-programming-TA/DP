@@ -5,6 +5,7 @@
 
 * Resources
 * [List of Datasets](/dpproject/resources_datasets.md)
+* [Sample Project](/dpproject/resources_sampleproject.md)
 
 * Showcase
 * ##### *Coming Soon*

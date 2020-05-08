@@ -20,3 +20,4 @@ Final project submissions (link to Github repository) will be due EOD on Sunday,
 > What resources are available to help me get started?
 
 * [List of datasets you may want to use](/dpproject/resources_datasets.md)
+* [Sample Project](/dpproject/resources_sampleproject.md)
