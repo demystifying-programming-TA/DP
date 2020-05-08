@@ -2,11 +2,25 @@
 
 *Session 4 Mini-Tutorial*
 
-**Step 1: Initialize your Flask App**
+**This guide assumes that you have completed all tutorials in session 1-4 aswell as the [Flask Setup Guide](/session4/setup_flask.md)**
 
+
+**Step 1: Initialize and launch your Flask App**
+
+Let's begin by initializing your Flask app at the top of your ```application.py``` script. 
+
+We will begin by importing the Flask package  in your 'Initialization Section', i.e., at the top of your script, using the command ```import flask```. 
+
+Once you have imported flask we will initialize your flask application using the following command: 
 ```
-# application.py
+application = flask.Flask(__name__,template_folder = 'frontend', static_folder = 'frontend')
+```
+The command creates a flask app which we can refer to using the ```application``` object^  and provides flask with the path to our frontend folder (```frontend```) where we have stored our *templates* (i.e., html files) and *static files* (i.e., CSS and JS files). 
 
+^ *Applying our object-orientated programming framework: ```application``` is an object of class ```Flask```, a class that is defined within the ```flask``` library*
+
+#### *This is what the beginning of your ```application.py``` may look like now:*
+```
 # Load external dependencies
 # ---------------------------------------------#
 import flask
@@ -18,16 +32,12 @@ application = flask.Flask(__name__,
 	static_folder = 'frontend')
 ```
 
-```
-# application.py
+Once we have initialized our app at the top of our ```application.py``` script we need to ensure that the app is launched, i.e., run. We can achieve this by adding the following command at the end of your ```application.py``` script: ```application.run()```^
 
-# ------------------------------------------------------------------------ #
-# Launch the  application
-# ------------------------------------------------------------------------ #
-if __name__ == "__main__":
-	application.run()
-```
+^ *Applying our object-orientated programming framework: The function ```run``` is an attribute of the ```application``` object, i.e., a function that is defined within the class ```Flask```*
 
+
+<hr>
 
 **Step 2: Define your homepage view**
 ```
