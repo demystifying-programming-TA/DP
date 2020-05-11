@@ -165,13 +165,13 @@ Decrease in # of driving calls (%): 30
 
 <hr>
 
-## Adding reverse geocoding to application.py
+## Adding reverse geocoding to dataprocessing.py
 
 Okay, let's add one more functionality before we call it quits: reverse geocoding the country name from coordinates.
 
 **Step 1: Define your dependencies**
 
-To do reverse geocoding, we will need the geopy module. Import it by adding the following to your ```application.py``` file:
+To do reverse geocoding, we will need the geopy module. Import it by adding the following to your ```dataprocessing.py``` file:
 ```
 import geopy as gp
 ```
@@ -245,7 +245,7 @@ def location_mobility_data(longitude, latitude):
 	return([country, walking_chg, driving_chg])
 ```
 
-Give it a try by running your ```application.py``` script again in the terminal!
+Test out the reverse gelocation by calling the function from ```dataprocessing.py``` by running your ```application.py``` script again in the terminal!
 
 What happens if you change the function input coordinates in ```application.py``` to longitude = 10.45, latitude = 51.16? Why?
 

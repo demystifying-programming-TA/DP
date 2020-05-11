@@ -2,7 +2,7 @@
 
 *Session 4 Mini-Tutorial*
 
-**This guide assumes that you have completed all tutorials in session 1-3 as well as the [Flask Setup Guide](/session4/setup_flask.md)**
+**This guide assumes that you have completed all tutorials in session 1-4 aswell as the [Flask Setup Guide](/session4/setup_flask.md)**
 
 
 **Step 1: Initialize and launch your Flask App**
@@ -10,6 +10,10 @@
 Let's begin by initializing your Flask app at the top of your ```application.py``` script. 
 
 We will begin by importing the Flask package  in your 'Initialization Section', i.e., at the top of your script, using the command ```import flask```. 
+
+```
+import flask
+```
 
 Once you have imported flask we will initialize your flask application using the following command: 
 ```
@@ -65,7 +69,7 @@ def home_view():
 One last thing we need to do before we can test our application is to update the paths in our ```index.html``` file that link to our ```style.css``` and ```function.js``` modules. Using the ```static_folder``` path that we defined in Step 1 while initializing our Flask application we can replace the links to our style-sheet and JS file (within our ```index.html``` script) with the following lines: 
 
 ```
-<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}"">
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <script src="{{ url_for('static', filename='function.js') }}"></script>
 ```
 
@@ -78,7 +82,7 @@ Launching your Flask app is simple:
 1. Enter the following command into your Terminal to execute your ```application.py``` script: ```python3 application.py``` (```python application.py``` on windows)
 
 
-2. Open http://127.0.0.1:5000/home in your browser (http://localhost:5000/ for windows)
+2. Open http://127.0.0.1:5000/home in your browser (http://localhost:5000/home for windows)
 
 
 <hr>
@@ -100,9 +104,10 @@ DrawGraph("United States of America",20,30);
 
 In this tutorial, we will replace these hard-coded placeholder values with actual values from our dataset. To do that, we will need to make a call to our backend. 
 
-[@Aparna: Explanation to be added]
+In our call to the backend (from the frontend), we will need to send the latitude and longitude as input data, which will then be processed in the backend, and some output data (country, walking decrease and driving decrease) will be returned.
 
-#### *This is what the middle of your ```application.py``` script (i.e., the section after your ```home _view``` definition) may look like now:*
+#### *This is what the middle of your ```function.js``` script needs to add in place of ```DrawGraph("United States of America",20,30);``` to send input data to the backend (with flask) to process*
+
 ``` 
 // Make API call to backend & draw graph
 $.getJSON("/update_country", {longitude: user_longitude, latitude:user_latitude}, 
@@ -123,8 +128,7 @@ $.getJSON("/update_country", {longitude: user_longitude, latitude:user_latitude}
 
 To complete our frontend-backend integration we will need to ensure that our backend is set-up to respond to the request we are placing from the frontend. 
 
-[@Aparna: Explanation to be added]
-
+The backend, ```application.py``` receives the input data of latitude and longitude from the frontend, runs processing on it using the ```dp``` module, and then returns the processed data (country, walking decrease and driving decrease) back through flask.
 
 #### *This is what the middle of your ```application.py``` script (i.e., the section after your ```home _view``` definition) may look like now:*
 
@@ -147,6 +151,10 @@ def update_country_view():
 
 ```
 
+```
+Note: Your assignment is to build your own location aware data processing module (modify dataprocessing.py accordingly) and show your individual unique processed data as responses on your website.
+We have given you the bare bones skeleton of your website. We encourage you to modify portions to show your creativity.
+```
 
 
 
