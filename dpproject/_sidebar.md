@@ -8,4 +8,4 @@
 * [Sample Project](/dpproject/resources_sampleproject.md)
 
 * Showcase
-* ##### *Coming Soon*
+* [Showcase](/dpproject/showcase.md)

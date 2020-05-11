@@ -2,6 +2,8 @@
 
 The DP teaching team has developed a sample project ("MobilityTracker") which you can use as a resource as you are working on your own project. 
 
+You can see a live version of the sample project [here](http://dpenv.eba-m3matske.us-west-2.elasticbeanstalk.com/demo/home)
+
 <hr>
 <br>
 
